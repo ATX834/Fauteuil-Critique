@@ -31,7 +31,7 @@ include 'header.php' ?>
     </div>
     <img src="source/mypicture.jpg" alt="Picture of me" id="pictureOfMe">
 </div>
-<!-- // ----------------------------end of content----------------------------- -->
-<?php
+    <!-- // ----------------------------end of content----------------------------- -->
+    <?php
 include 'footer.php';
 ?>
