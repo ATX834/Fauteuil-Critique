@@ -4,7 +4,7 @@
     <img class="socialNetworkLogo" src="source/logo-facebook.png" alt= "Bouton Facebook">
     <img class="socialNetworkLogo" src="source/logo-insta.png" alt= "Bouton Instagram">
     <p>
-      <a href="lien-page-contact">Contact</a>
+      <a href="form.php">Contact</a>
     </p>
   </footer>
 </body>
