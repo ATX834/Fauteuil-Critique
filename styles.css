@@ -16,6 +16,9 @@
 header {
   width: 100%;
   height: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1.5%;
 }
 
 /* --------------------Fin Header --------------------- */
@@ -32,11 +35,37 @@ nav {
   background-color: var(--navbar-color);
   font-family: var(--title-font);
   padding: 0 1.5%;
-}
+  list-style-type: none;
 
+}
+ /* */
+
+
+
+/* */
 a {
     text-decoration: none;
     color: var(--title-color);
+}
+
+.burger {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.burger a{
+    display: block;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+.burger-click {
+    height: 200px;
+    width: 100px;
+    background-color: var(--navbar-color);
+    font-family: var(--title-font);
+    z-index: 1000;
 }
 
 .button-burger {
@@ -46,14 +75,6 @@ a {
     border: none;
     font-size: 0;
     cursor: pointer;
-}
-
-.burger-click {
-    height: 200px;
-    width: 100px;
-    background-color: var(--navbar-color);
-    font-family: var(--title-font);
-    z-index: 1000;
 }
 
 .colormode {
@@ -133,10 +154,10 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
 
 .menu {
   display: inline,
-}
 }
 
   /* -------------------- Fin Navbar -------------------- */
