@@ -1,7 +1,7 @@
 <nav>
     <div class="burger">
         <button class="button-burger">
-            <img id='burger-menu' src="/source/burger-menu-icon.jpg" 
+            <img id='burger-menu' src="/source/burger-menu-icon.jpg"
             alt="burger-menu" width="100%" height="100%">
         </button>
     </div>
@@ -17,10 +17,14 @@
             </div>
 
             <div class="review">
+              <a href="reviews.php">Critiques</a>
             </div>
 
             <div class="about">
+              <a href="aboutme.php">A propos de moi</a>
             </div>
+            <div class="form">
+              <a href="form.php">Contact</a>
         </div>
     </div>
 
