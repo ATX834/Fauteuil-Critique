@@ -120,7 +120,18 @@ input:checked + .slider:before {
 
   /* -------------------- Fin Navbar -------------------- */
 
-/*----------------------- Début Formulaire --------------*/
+/* --------------------  Debut aboutme -------------------- */
+
+#aboutMeText {
+
+    display: block;
+    width : 40%;
+    font-style: var(--text-font);
+}
+
+
+
+/* -------------------- Fin aboutme -------------------- */
 
 fieldset {
     text-align: center;
