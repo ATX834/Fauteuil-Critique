@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-
-
-
-<form id='contactForm'>
+<?php include 'header.php' ?>
+    <content>
+    <form id='contactForm'>
     <fieldset>
         <legend>Formulaire de contact</legend>
         <div class='champ'>
@@ -32,12 +30,5 @@
         <input type='submit' value='Envoyez'>
     </fieldset>
 </form>
-
-
-=======
-<?php include 'header.php' ?>
-    <content>
-      INSERER FORMULAIRE
     </content>
 <?php include 'footer.php' ?>
->>>>>>> 86a65d4efe65147104033bf6694834c56c93a07c
