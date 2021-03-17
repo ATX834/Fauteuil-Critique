@@ -22,3 +22,9 @@ nav {
   width: 10px;
   height: 10px;
 }
+:root {
+    --primary-color : #B5C9F0
+    --secondary-color-1 : #FFD7BA
+    --secondary-color-2 :#FFF2BA
+    --title-font : 'Jacques Francois', serif;
+}
