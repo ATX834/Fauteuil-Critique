@@ -151,22 +151,27 @@ body{
 #aboutMeBody {
     display : flex;
     text-align: center;
+    justify-content: space-between;
 }
 
 #aboutMeText {
-    text-align: left;
-    width : 40%;
-    font-style: var(--text-font);
-    margin-left: 3%;
+    text-align:left;
+    width : 60%;
+    font-family: var(--text-font);
+    margin-left: 5%;
+    margin-top: 8%;
+    margin-right: 3%;
     font-size: 18px;
 }
 #pictureOfMe {
     width : 400px;
-    height: 400px;
+    height: 365px;
     border-radius: 30%;
-    margin-top: 4%;
+    margin-top: 2%;
+    margin-right: 5%;
     border-style: solid;
     border-color: var(--footer-color);
+    border-width: 1px;
 }
 
 
