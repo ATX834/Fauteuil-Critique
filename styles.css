@@ -103,6 +103,10 @@ a {
     cursor: pointer;
 }
 
+.logo-mobile {
+    padding-left: 1.5%;
+}
+
 .colormode {
     display: flex;
     width: 120px;
