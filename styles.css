@@ -25,15 +25,19 @@ header {
 nav {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 97%;
   justify-content: space-between;
   align-items: center;
   background-color: var(--navbar-color);
+  font-family: var(--title-font);
+  padding: 0 1.5%;
 }
 
-.burger {
-    padding: 0 10px;
+a {
+    text-decoration: none;
+    color: var(--title-color);
 }
+
 .button-burger {
     height: 80px;
     width: 80px;
@@ -49,7 +53,6 @@ nav {
 
 .colormode {
     display: flex;
-    padding: 0 15px;
     width: 120px;
     height: 100%;
     justify-content: space-between;
@@ -57,6 +60,15 @@ nav {
 
 .colormode > label {
     align-self: center;
+}
+
+.menu {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 550px;
+
 }
 
 .switch {
