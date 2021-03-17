@@ -109,4 +109,20 @@ input:checked + .slider:before {
 
   /* -------------------- Fin Navbar -------------------- */
 
+/*----------------------- Début Formulaire --------------*/
+
+fieldset {
+    text-align: center;
+}
+
+.champ{
+    border: 1px #0F1B07;
+    padding: 5px;
+    margin: auto;
+}
+
+textarea{
+    width: 80%;
+    height: 100%
+}
 
