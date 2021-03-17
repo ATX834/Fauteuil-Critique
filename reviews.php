@@ -1,14 +1,18 @@
 <?php include 'header.php' ?>
   <content>
     <div class="categories">
-    <li>Jeux Vidéo</li>
-    <li>Film</li>
-    <li>Musique</li>
+<?php
+$categoriesArray = ["Jeux Vidéo","Film","Musique"];
+for($i = 0; $i < count($categoriesArray); $i++)
+{
+    echo "<li>$categoriesArray[$i]</li>";
+}
+?>
   </div>
-  <div class="reviews">
-    <div class="jeuxvideo"> Critiques jeux vidéos</div>
-    <div class="film">Critiques filmographiques</div>
-    <div class="musique">Critiques musicales</div>
+  <div class="reviews-card">
+    <div> Critiques jeux vidéos</div>
+    <div>Critiques filmographiques</div>
+    <div>Critiques musicales</div>
     </div>
   </content>
 <?php include 'footer.php' ?>
