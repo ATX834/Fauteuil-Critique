@@ -14,6 +14,8 @@
 /* ---------------- CSS Header ------------------------- */
 
 header {
+  position:fixed;
+  top:0;
   width: 100%;
   height: 100px;
 }
@@ -145,8 +147,17 @@ body{
   font: var(--text-font) var(--text-color);
 }
 /*----------------------- Fin body --------------*/
-/*----------------------- Début Formulaire --------------*/
+/*----------------------- Début Reviews --------------*/
+.categories{
 
+  width: 160px;
+  position: fixed;
+  left: 0;
+  padding-top: 20px;
+}
+}
+
+/*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
 #aboutMeBody {
     display : flex;
@@ -172,7 +183,7 @@ body{
 
 
 /* -------------------- Fin aboutme -------------------- */
-
+/*----------------------- Début Formulaire --------------*/
 fieldset {
     text-align: center;
 }
@@ -193,11 +204,14 @@ textarea{
 /*------------------- Début Footer ---------------------*/
 footer{
   background : var(--footer-color);
-
+  position: fixed;
+  bottom:0;
+  width: 100%;
 }
 
 .socialNetworkLogo{
   width:50px;
   height:50px;
+  float: right;
 }
 /*------------------- Fin Footer -----------------------*/
