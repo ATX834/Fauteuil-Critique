@@ -65,13 +65,13 @@ nav {
     width: 30px; /* 60px */
     height: 17px; /* 34px */
 }
-  
+
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
-  
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -83,7 +83,7 @@ nav {
     -webkit-transition: .4s;
     transition: .4s;
 }
-  
+
 .slider:before {
     position: absolute;
     content: "";
@@ -95,29 +95,53 @@ nav {
     -webkit-transition: .4s;
     transition: .4s;
 }
-  
+
 input:checked + .slider {
     background-color: #f708c3;
 }
-  
+
 input:focus + .slider {
     box-shadow: 0 0 4px #000000;
 }
-  
+
 input:checked + .slider:before {
     -webkit-transform: translateX(13px); /* 26px */
     -ms-transform: translateX(13px); /* 26px */
     transform: translateX(13px); /* 26px */
 }
-  
+
 .slider.round {
     border-radius: 17px; /* 34px */
 }
-  
+
 .slider.round:before {
     border-radius: 50%;
 }
 
   /* -------------------- Fin Navbar -------------------- */
 
+/*----------------------- Début Formulaire --------------*/
 
+fieldset {
+    text-align: center;
+}
+
+.champ{
+    border: 1px #0F1B07;
+    padding: 5px;
+    margin: auto;
+}
+
+textarea{
+    width: 80%;
+    height: 100%
+}
+
+/*----------------------- Fin Formulaire ----------------*/
+
+/*------------------- Début Footer ---------------------*/
+.socialNetworkLogo{
+  width:50px;
+  height:50px;
+}
+/*------------------- Fin Footer -----------------------*/
