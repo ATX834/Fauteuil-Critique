@@ -48,8 +48,12 @@ a {
     cursor: pointer;
 }
 
-#burger-menu:focus {
-    transform: rotate(90deg);
+.burger-click {
+    height: 200px;
+    width: 100px;
+    background-color: var(--navbar-color);
+    font-family: var(--title-font);
+    z-index: 1000;
 }
 
 .colormode {
