@@ -6,7 +6,7 @@
     --title-font : 'Jacques Francois', serif;
     --title-color : #0F1B07;
     --text-color : black;
-    -- text-font : 'Ibarra Real Nova', serif;
+    --text-font : 'Ibarra Real Nova', serif;
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -109,4 +109,16 @@ input:checked + .slider:before {
 
   /* -------------------- Fin Navbar -------------------- */
 
+/* --------------------  Debut aboutme -------------------- */
+
+#aboutMeText {
+
+    display: block;
+    width : 40%;
+    font-style: var(--text-font);
+}
+
+
+
+/* -------------------- Fin aboutme -------------------- */
 
