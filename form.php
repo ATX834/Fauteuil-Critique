@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -33,3 +34,10 @@
 </form>
 
 
+=======
+<?php include 'header.php' ?>
+    <content>
+      INSERER FORMULAIRE
+    </content>
+<?php include 'footer.php' ?>
+>>>>>>> 86a65d4efe65147104033bf6694834c56c93a07c
