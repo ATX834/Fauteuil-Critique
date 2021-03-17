@@ -149,14 +149,11 @@ body{
 
 /* --------------------  Debut aboutme -------------------- */
 #aboutMeBody {
-    display : inline;
+    display : flex;
     text-align: center;
-    
-
 }
 
 #aboutMeText {
-    display:inline-block;
     text-align: left;
     width : 40%;
     font-style: var(--text-font);
@@ -164,9 +161,8 @@ body{
     font-size: 18px;
 }
 #pictureOfMe {
-    display: inline-block;
-    text-align: right;
     width : 400px;
+    height: 400px;
     border-radius: 30%;
     margin-top: 4%;
     border-style: solid;
