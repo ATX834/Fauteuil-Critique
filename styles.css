@@ -23,17 +23,22 @@ header {
 /* ------------------ Debut Navbar -------------------- */
 
 nav {
+  background: var(--navbar-color);
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 97%;
   justify-content: space-between;
   align-items: center;
   background-color: var(--navbar-color);
+  font-family: var(--title-font);
+  padding: 0 1.5%;
 }
 
-.burger {
-    padding: 0 10px;
+a {
+    text-decoration: none;
+    color: var(--title-color);
 }
+
 .button-burger {
     height: 80px;
     width: 80px;
@@ -49,7 +54,6 @@ nav {
 
 .colormode {
     display: flex;
-    padding: 0 15px;
     width: 120px;
     height: 100%;
     justify-content: space-between;
@@ -57,6 +61,15 @@ nav {
 
 .colormode > label {
     align-self: center;
+}
+
+.menu {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 550px;
+
 }
 
 .switch {
@@ -116,9 +129,19 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+
+.menu {
+  display: inline,
+}
 }
 
   /* -------------------- Fin Navbar -------------------- */
+/*----------------------- Début body --------------*/
+body{
+  font: var(--text-font) var(--text-color);
+}
+/*----------------------- Fin body --------------*/
+/*----------------------- Début Formulaire --------------*/
 
 /* --------------------  Debut aboutme -------------------- */
 #aboutMeBody {
@@ -168,6 +191,11 @@ textarea{
 /*----------------------- Fin Formulaire ----------------*/
 
 /*------------------- Début Footer ---------------------*/
+footer{
+  background : var(--footer-color);
+
+}
+
 .socialNetworkLogo{
   width:50px;
   height:50px;
