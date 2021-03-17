@@ -1,10 +1,10 @@
 <nav>
-    <!-- <div class="burger">
+    <div class="burger">
         <button class="button-burger">
-            <img id='burger-menu' src="/source/burger-menu-icon.jpg" 
+            <img id='burger-menu' src="/source/burger-menu-icon.jpg"
             alt="burger-menu" width="100%" height="100%">
         </button>
-    </div> -->
+    </div>
 
     <div class="logo-mobile">
         <a href="index.php">
@@ -12,7 +12,7 @@
         </a>
     </div>
 
-    <div class="menu">
+    <!-- <div class="menu">
         <div class="home">
             <a href="index.php">
                 <img id='logo' src="/source/home-icon.png" alt="home-icon" width="50px" height="50px">
@@ -35,7 +35,7 @@
                 <h1>Contact</h1>
             </a>
         </div>
-    </div>
+    </div> -->
 
     <div class="colormode">
         <label class='switch'>
