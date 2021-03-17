@@ -1,7 +1,7 @@
 <nav>
 
     <div class="burger">
-        <div>
+        <div style="padding:10% 0 0 10%">
             <button class="button-burger">
                 <img id='burger-menu' src="/source/burger-menu-icon.jpg" alt="burger-menu" width="100%" height="100%">
             </button>
