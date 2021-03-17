@@ -42,6 +42,6 @@
             <input type="checkbox">
             <span class="slider round"></span>
         </label>
-        <img src="/source/disco-ball.png" alt="disco-ball" width="80px" height="80px">
+        <img src="/source/disco-ball2.png" alt="disco-ball" width="80px" height="80px">
     </div>
 </nav>
