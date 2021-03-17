@@ -1,9 +1,9 @@
 <?php
 include 'header.php' ?>
 <!-- // ---------------------------content------------------------------ -->
-<div id=aboutMeBody>
-    <div id=aboutMeText>
-        <p> &nbsp;&nbsp;&nbsp;&nbsp; Je suis journaliste de profession et né dans le Val d’Oise le 6 Avril 1983.
+<div id= 'aboutMeBody'>
+    <div id= 'aboutMeText'>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp; Je suis journaliste de profession et né dans le Val d’Oise le 6 Avril 1991.
             Mon père était conducteur de trains et ma mère mécanicien automobile ce qui m’a donné très tôt le goût pour les voyages.
             Ma passion pour le journalisme m’est venue alors que je regardais Lois et Clark sur le téléviseur Philipps familial,
             il m’est apparu très clairement que le héros n’était pas Superman car il se sent toujours obligé de casser quelque chose avec ses poings et moi je ne pense pas que la violence soit une solution,
