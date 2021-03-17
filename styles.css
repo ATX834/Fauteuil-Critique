@@ -23,6 +23,7 @@ header {
 /* ------------------ Debut Navbar -------------------- */
 
 nav {
+  background: var(--navbar-color);
   display: flex;
   height: 100%;
   width: 97%;
@@ -128,9 +129,19 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+
+.menu {
+  display: inline,
+}
 }
 
   /* -------------------- Fin Navbar -------------------- */
+/*----------------------- Début body --------------*/
+body{
+  font: var(--text-font) var(--text-color);
+}
+/*----------------------- Fin body --------------*/
+/*----------------------- Début Formulaire --------------*/
 
 /* --------------------  Debut aboutme -------------------- */
 
@@ -163,6 +174,11 @@ textarea{
 /*----------------------- Fin Formulaire ----------------*/
 
 /*------------------- Début Footer ---------------------*/
+footer{
+  background : var(--footer-color);
+
+}
+
 .socialNetworkLogo{
   width:50px;
   height:50px;
