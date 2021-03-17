@@ -6,12 +6,12 @@
     </div>
 
     <div class="logo-mobile">
-        <img src="/source/logo.png" alt="logo" width="80px" height="80px">
+        <a href="index.php"><img src="/source/logo.png" alt="logo" width="80px" height="80px"></a>
     </div>
 
     <div class="menu, hidden">
         <div class="home">
-            <img id='logo' src="/source/home-icon.png" alt="home-icon" width="100px" height="100px">
+            <a href="index.php"><img id='logo' src="/source/home-icon.png" alt="home-icon" width="100px" height="100px"></a>
         </div>
 
         <div class="review">
