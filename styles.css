@@ -1,11 +1,10 @@
 /* ------------------ Root ------------------------ */
 
 :root {
-    --primary-color : #2F2E33;
-    --secondary-color-1 : #3A5199;
-    --secondary-color-2 :#C4C4C4;
+    --navbar-color : #C6D166;
+    --footer-color :#0F1B07;
     --title-font : 'Jacques Francois', serif;
-    --font-color : #D5D6D2;
+    --title-color : #0F1B07;
 }
 
 /* ---------------- Fin Root --------------------------- */
