@@ -224,27 +224,26 @@ body{
 
 #aboutMeBody {
     display : flex;
-    justify-content : space-between;
-    align-items: flex-start;
+    justify-content : center;
+    align-items: center;
 }
 
 #aboutMeText {
-    display: inline-block;
+    display: block;
     text-align:left;
-    width : 50%;
+    width : 80%;
     font-family: var(--text-font);
-    margin-left: 5%;
-    margin-top: 18%;
-    margin-right: 3%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 8%;
     font-size: 18px;
 }
 
 #pictureOfMe {
-    width : 25%;
-    height: 25%;
+    width : 240px;
     border-radius: 50%;
-    margin-top: 2%;
-    margin-right: 5%;
+    margin: 4% 0 0 41%;
     border-style: solid;
     border-color: grey;
     border-width: 1px;
@@ -255,6 +254,7 @@ body{
 
 fieldset {
     text-align: center;
+    margin-top: 15px; 
 }
 
 .champ{
