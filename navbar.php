@@ -29,7 +29,7 @@
         </a>
     </div>
 
-    <!-- <div class="menu">
+    <div class="menu">
         <div class="home">
             <a href="index.php">
                 <img id='logo' src="/source/home-icon.png" alt="home-icon" width="50px" height="50px">
@@ -52,7 +52,7 @@
                 <h1>Contact</h1>
             </a>
         </div>
-    </div> -->
+    </div>
 
     <div class="colormode">
         <label class='switch'>
