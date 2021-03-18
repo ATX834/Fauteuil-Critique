@@ -10,40 +10,7 @@
 }
 
 /* ---------------- Fin Root --------------------------- */
-
-/* ---------------- CSS Header ------------------------- */
-
-header {
-  position:fixed;
-  top:0;
-  width: 100%;
-  height: 100px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 1.5%;
-}
-
-/* --------------------Fin Header --------------------- */
-
-/* ------------------ Debut Navbar -------------------- */
-
-nav {
-  background: var(--navbar-color);
-  display: flex;
-  height: 100%;
-  width: 98.5%;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--navbar-color);
-  font-family: var(--title-font);
-  padding-right: 1.5%;
-  list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: var(--title-color);
-}
+/* ---------------- Debut Queries ---------------------- */
 
 @media screen and (max-width: 800px) {
     .menu {
@@ -71,6 +38,41 @@ a {
     
     }
 }
+
+/* ---------------- Fin Queries ------------------------ */
+/* ---------------- CSS Header ------------------------- */
+
+header {
+  position:fixed;
+  top:0;
+  width: 100%;
+  height: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1.5%;
+}
+
+/* --------------------Fin Header --------------------- */
+/* ------------------ Debut Navbar -------------------- */
+
+nav {
+  background: var(--navbar-color);
+  display: flex;
+  height: 100%;
+  width: 98.5%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--navbar-color);
+  font-family: var(--title-font);
+  padding-right: 1.5%;
+  list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--title-color);
+}
+
 
 .burger a{
     display: block;
@@ -201,22 +203,25 @@ input:checked + .slider:before {
 
   /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début body --------------*/
+
 body{
   font: var(--text-font) var(--text-color);
+  min-width: 500px;
 }
+
 /*----------------------- Fin body --------------*/
 /*----------------------- Début Reviews --------------*/
-.categories{
 
+.categories{
   width: 160px;
   position: fixed;
   left: 0;
   padding-top: 20px;
 }
-}
 
 /*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
+
 #aboutMeBody {
     display : flex;
     justify-content : space-between;
@@ -233,6 +238,7 @@ body{
     margin-right: 3%;
     font-size: 18px;
 }
+
 #pictureOfMe {
     width : 25%;
     height: 25%;
@@ -244,10 +250,9 @@ body{
     border-width: 1px;
 }
 
-
-
 /* -------------------- Fin aboutme -------------------- */
 /*----------------------- Début Formulaire --------------*/
+
 fieldset {
     text-align: center;
 }
@@ -264,13 +269,13 @@ textarea{
 }
 
 /*----------------------- Fin Formulaire ----------------*/
-
 /*------------------- Début Footer ---------------------*/
+
 footer{
   background : var(--footer-color);
   position: fixed;
   bottom:0;
-  width: 100%;
+  width: 98%;
 }
 
 .socialNetworkLogo{
@@ -278,4 +283,5 @@ footer{
   height:50px;
   float: right;
 }
+
 /*------------------- Fin Footer -----------------------*/
