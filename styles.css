@@ -10,7 +10,36 @@
 }
 
 /* ---------------- Fin Root --------------------------- */
+/* ---------------- Debut Queries ---------------------- */
 
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .burger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex: 2;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 550px;
+
+    }
+}
+
+/* ---------------- Fin Queries ------------------------ */
 /* ---------------- CSS Header ------------------------- */
 
 header {
@@ -24,7 +53,6 @@ header {
 }
 
 /* --------------------Fin Header --------------------- */
-
 /* ------------------ Debut Navbar -------------------- */
 
 nav {
@@ -198,14 +226,20 @@ input:checked + .slider:before {
 .menu {
   display: inline,
 }
+.review:hover h1, .about:hover h1, .form:hover h1 {
+    background-color: var(--footer-color);
+    color : var(--navbar-color);
+}
 
   /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début body --------------*/
+
 body{
   font: var(--text-font) var(--text-color);
   background-color : #fefee2;
   min-height: 500px; /* taille du body facultatif*/
 }
+
 /*----------------------- Fin body --------------*/
 /*----------------------- Début Reviews --------------*/
 content{
@@ -231,39 +265,48 @@ content{
 
 /*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
+
 #aboutMeBody {
     display : flex;
-    justify-content : space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutMeText::first-letter {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: var(--title-color);
 }
 
 #aboutMeText {
-    display: inline-block;
-    text-align:left;
-    width : 50%;
+    display: block;
+    line-height: 1.5em;
+    text-align: justify;
+    width : 80%;
     font-family: var(--text-font);
-    margin-left: 5%;
-    margin-top: 18%;
-    margin-right: 3%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 4%;
     font-size: 18px;
 }
+
 #pictureOfMe {
-    width : 25%;
-    height: 25%;
+    width : 240px;
     border-radius: 50%;
-    margin-top: 2%;
-    margin-right: 5%;
+    margin-top: 4%;
     border-style: solid;
     border-color: grey;
     border-width: 1px;
 }
 
-
-
 /* -------------------- Fin aboutme -------------------- */
 /*----------------------- Début Formulaire --------------*/
+
 fieldset {
     text-align: center;
+    margin-top: 15px;
 }
 
 .champ{
@@ -278,8 +321,8 @@ textarea{
 }
 
 /*----------------------- Fin Formulaire ----------------*/
-
 /*------------------- Début Footer ---------------------*/
+
 footer{
   background : var(--footer-color);
   position: fixed;
@@ -292,4 +335,5 @@ footer{
   height:50px;
   float: right;
 }
+
 /*------------------- Fin Footer -----------------------*/
