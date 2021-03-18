@@ -200,6 +200,10 @@ input:checked + .slider:before {
 .menu {
   display: inline,
 }
+.review:hover h1, .about:hover h1, .form:hover h1 {
+    background-color: var(--footer-color);
+    color : var(--navbar-color);
+}
 
   /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début body --------------*/
@@ -232,7 +236,7 @@ body{
     font-size: 54px;
     font-weight: bold;
     font-family: 'UnifrakturMaguntia', cursive;
-    color: var(--title-color    );
+    color: var(--title-color);
 }
 
 #aboutMeText {
