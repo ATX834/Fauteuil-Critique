@@ -224,13 +224,21 @@ body{
 
 #aboutMeBody {
     display : flex;
-    justify-content : center;
+    flex-direction: column;
     align-items: center;
+}
+
+#aboutMeText::first-letter {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: var(--title-color    );
 }
 
 #aboutMeText {
     display: block;
-    text-align:left;
+    line-height: 1.5em;
+    text-align: justify;
     width : 80%;
     font-family: var(--text-font);
     margin-left: 10%;
@@ -243,7 +251,7 @@ body{
 #pictureOfMe {
     width : 240px;
     border-radius: 50%;
-    margin: 4% 0 0 41%;
+    margin-top: 6%;
     border-style: solid;
     border-color: grey;
     border-width: 1px;
