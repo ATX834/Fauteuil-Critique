@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Jacques+Francois&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color : #fefee2">
+<body>
 
     <header>
         <?php include 'navbar.php' ?>
