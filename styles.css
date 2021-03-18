@@ -68,7 +68,7 @@ a {
         justify-content: space-around;
         align-items: center;
         max-width: 550px;
-    
+
     }
 }
 
@@ -203,16 +203,30 @@ input:checked + .slider:before {
 /*----------------------- Début body --------------*/
 body{
   font: var(--text-font) var(--text-color);
+  background-color : #fefee2;
+  min-height: 500px; /* taille du body facultatif*/
 }
 /*----------------------- Fin body --------------*/
 /*----------------------- Début Reviews --------------*/
-.categories{
-
-  width: 160px;
-  position: fixed;
-  left: 0;
-  padding-top: 20px;
+content{
+  display: flex;
+  text-decoration-style : none;
+  list-style-type: none;
 }
+
+.categories{
+  background: beige;
+  display: block;
+  flex-direction: column;
+  width: 13%;
+  padding-bottom: 100%;
+  height: 100%;
+}
+
+.logoCategories{
+  margin: 3% 25% 3% 25%;
+  height: 35px;
+  width: 50px;
 }
 
 /*----------------------- Fin Reviews --------------*/
@@ -270,7 +284,7 @@ footer{
   background : var(--footer-color);
   position: fixed;
   bottom:0;
-  width: 100%;
+  width: 98%;
 }
 
 .socialNetworkLogo{
