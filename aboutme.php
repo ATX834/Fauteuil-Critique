@@ -2,6 +2,7 @@
 include 'header.php' ?>
 <!-- // ---------------------------content------------------------------ -->
 <div id= 'aboutMeBody'>
+    <img src="source/mypicture.jpg" alt="Picture of me" id="pictureOfMe">
     <div id= 'aboutMeText'>
         <p> &nbsp;&nbsp;&nbsp;&nbsp; Je suis journaliste de profession et né dans le Val d’Oise le 6 Avril 1991.
             Mon père était conducteur de trains et ma mère mécanicien automobile ce qui m’a donné très tôt le goût pour les voyages.
@@ -27,9 +28,8 @@ include 'header.php' ?>
             moi un art mineur, car au fond il ne rend pas les gens heureux et les arts majeurs se doivent d’apporter la joie et la paix entre les
             hommes. C’est pourquoi le samedi soir venu j’aime chausser mes chaussures compensées et donner du bonheur aux gens de plus de 40 ans
             en boite de nuit avec mon système discomobile . Car voyez-vous dans la vie de tous les jours je suis le grand reporter que vous
-            conaissez tous mais à la nuit tombée je suis le héros dont cette ville à besoin. Je suis… Disco Lolo.</p>
+            conaissez tous mais à la nuit tombée je suis le héros dont cette ville à besoin. Je suis… Funky Fonzy.</p>
     </div>
-    <img src="source/mypicture.jpg" alt="Picture of me" id="pictureOfMe">
 </div>
     <!-- // ----------------------------end of content----------------------------- -->
     <?php
