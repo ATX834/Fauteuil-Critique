@@ -1,50 +1,60 @@
 /* ------------------ Root ------------------------ */
 
 :root {
-    --navbar-color : #C6D166;
-    --footer-color :#0F1B07;
-    --title-font : 'Jacques Francois', serif;
-    --title-color : #0F1B07;
-    --text-color : black;
-    --text-font : 'Ibarra Real Nova', serif;
+  --navbar-color: #c6d166;
+  --footer-color: #0f1b07;
+  --title-font: "Jacques Francois", serif;
+  --title-color: #0f1b07;
+  --text-color: black;
+  --text-font: "Ibarra Real Nova", serif;
+  --body-font: #fefee2;
+}
+
+[data-theme="disco"] {
+    --navbar-color: #ff51f1;
+    --footer-color: #4db607;
+    --title-font: "Jacques Francois", serif;
+    --title-color: #f2ff43;
+    --text-color: rgb(248, 37, 37);
+    --text-font: "Ibarra Real Nova", serif;
+    --body-font: #ffff49;
 }
 
 /* ---------------- Fin Root --------------------------- */
 /* ---------------- Debut Queries ---------------------- */
 
 @media screen and (max-width: 800px) {
-    .menu {
-        display: none;
-    }
+  .menu {
+    display: none;
+  }
 
-    .burger {
-        align-self: flex-start;
-        display: flex;
-        flex-direction: column;
-    }
+  .burger {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 801px) {
-    .burger {
-        display: none;
-    }
+  .burger {
+    display: none;
+  }
 
-    .menu {
-        display: flex;
-        flex: 2;
-        justify-content: space-around;
-        align-items: center;
-        max-width: 550px;
-    
-    }
+  .menu {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 550px;
+  }
 }
 
 /* ---------------- Fin Queries ------------------------ */
 /* ---------------- CSS Header ------------------------- */
 
 header {
-  position:fixed;
-  top:0;
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 100px;
   position: -webkit-sticky;
@@ -69,150 +79,140 @@ nav {
 }
 
 a {
-    text-decoration: none;
-    color: var(--title-color);
+  text-decoration: none;
+  color: var(--title-color);
 }
 
-
-.burger a{
-    display: block;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
+.burger a {
+  display: block;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
 }
 
 .burger a:hover {
-    color: white;
+  color: white;
 }
 
 .burger-click {
-    height: 200px;
-    width: 100px;
-    font-family: var(--title-font);
-    z-index: 1000;
+  height: 200px;
+  width: 100px;
+  font-family: var(--title-font);
+  z-index: 1000;
 }
 
 .burger-list {
-    display: none;
-    background-color: var(--navbar-color);
-    box-shadow: 0px 1px 2px #CCC;
-    background-color: var(--navbar-color);
-    position: absolute;
-    width: 100px;
-    z-index: 1000;
-    list-style-type: none;
+  display: none;
+  background-color: var(--navbar-color);
+  box-shadow: 0px 1px 2px #ccc;
+  background-color: var(--navbar-color);
+  position: absolute;
+  width: 100px;
+  z-index: 1000;
+  list-style-type: none;
 }
 
 .burger-list li {
-    float: none;
-    width: 100%;
-    text-align: left;
-    margin: 10px 0;
+  float: none;
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
 }
 
 .burger:hover .burger-list {
-    display: block;
+  display: block;
 }
 
 .button-burger {
-    height: 80px;
-    width: 80px;
-    background: transparent;
-    border: none;
-    font-size: 0;
-    cursor: pointer;
+  height: 80px;
+  width: 80px;
+  background: transparent;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
 }
 
 .logo-mobile {
-    padding-left: 1.5%;
+  padding-left: 1.5%;
 }
 
 .colormode {
-    display: flex;
-    width: 120px;
-    height: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 120px;
+  height: 100%;
+  justify-content: space-between;
 }
 
-.colormode > label {
-    align-self: center;
+.colormode label {
+  align-self: center;
 }
 
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 30px; /* 60px */
-    height: 17px; /* 34px */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
 }
 
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+.theme-switch {
+  display: inline-block;
+  height: 17px; /* 34px */
+  position: relative;
+  width: 30px; /* 60px */
+}
+
+.theme-switch input {
+  display: none;
 }
 
 .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(0, 0, 0);
-    -webkit-transition: .4s;
-    transition: .4s;
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
 }
 
 .slider:before {
-    position: absolute;
-    content: "";
-    height: 13px; /* 26px */
-    width: 13px; /* 26 px */
-    left: 2px; /* 4px */
-    bottom: 2px; /* 4px */
-    background-color: var(--navbar-color);
-    -webkit-transition: .4s;
-    transition: .4s;
+  background-color: #fff;
+  bottom: 2px; /* 4px */
+  content: "";
+  height: 13px; /* 26px */
+  left: 2px; /* 4px */
+  position: absolute;
+  transition: 0.4s;
+  width: 13px; /* 26px */
 }
 
 input:checked + .slider {
-    background-color: #f708c3;
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 4px #000000;
+  background-color: #66bb6a;
 }
 
 input:checked + .slider:before {
-    -webkit-transform: translateX(13px); /* 26px */
-    -ms-transform: translateX(13px); /* 26px */
-    transform: translateX(13px); /* 26px */
+  transform: translateX(13px); /* 26px */
 }
 
 .slider.round {
-    border-radius: 17px; /* 34px */
+  border-radius: 17px; /* 34px */
 }
 
 .slider.round:before {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-.menu {
-  display: inline,
-}
-
-  /* -------------------- Fin Navbar -------------------- */
+/* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début body --------------*/
 
-body{
+body {
   font: var(--text-font) var(--text-color);
   min-width: 500px;
+  background-color : var(--body-font);
 }
 
 /*----------------------- Fin body --------------*/
 /*----------------------- Début Reviews --------------*/
 
-.categories{
+.categories {
   width: 160px;
   position: fixed;
   left: 0;
@@ -223,64 +223,64 @@ body{
 /* --------------------  Debut aboutme -------------------- */
 
 #aboutMeBody {
-    display : flex;
-    justify-content : center;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #aboutMeText {
-    display: block;
-    text-align:left;
-    width : 80%;
-    font-family: var(--text-font);
-    margin-left: 10%;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-bottom: 8%;
-    font-size: 18px;
+  display: block;
+  text-align: justify;
+  width: 80%;
+  font-family: var(--text-font);
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-bottom: 8%;
+  font-size: 18px;
 }
 
 #pictureOfMe {
-    width : 240px;
-    border-radius: 50%;
-    margin: 4% 0 0 41%;
-    border-style: solid;
-    border-color: grey;
-    border-width: 1px;
+  width: 240px;
+  border-radius: 50%;
+  margin-top: 4%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
 }
 
 /* -------------------- Fin aboutme -------------------- */
 /*----------------------- Début Formulaire --------------*/
 
 fieldset {
-    text-align: center;
-    margin-top: 15px; 
+  text-align: center;
+  margin-top: 15px;
 }
 
-.champ{
-    border: 1px #0F1B07;
-    padding: 5px;
-    margin: auto;
+.champ {
+  border: 1px #0f1b07;
+  padding: 5px;
+  margin: auto;
 }
 
-textarea{
-    width: 80%;
-    height: 100%
+textarea {
+  width: 80%;
+  height: 100%;
 }
 
 /*----------------------- Fin Formulaire ----------------*/
 /*------------------- Début Footer ---------------------*/
 
-footer{
-  background : var(--footer-color);
+footer {
+  background: var(--footer-color);
   position: fixed;
-  bottom:0;
+  bottom: 0;
   width: 98%;
 }
 
-.socialNetworkLogo{
-  width:50px;
-  height:50px;
+.socialNetworkLogo {
+  width: 50px;
+  height: 50px;
   float: right;
 }
 
