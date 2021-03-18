@@ -219,6 +219,14 @@ body{
   padding-top: 20px;
 }
 
+.reviews-card {
+    display: flex;
+    margin: auto;
+    flex-direction:column;
+    font-family: var(--text-font);
+
+}
+
 /*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
 
