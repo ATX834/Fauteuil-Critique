@@ -39,20 +39,37 @@ nav {
   padding-right: 1.5%;
   list-style-type: none;
 }
- /* */
 
-
-
-/* */
 a {
     text-decoration: none;
     color: var(--title-color);
 }
 
-.burger {
-    align-self: flex-start;
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .burger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex: 2;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 550px;
+    
+    }
 }
 
 .burger a{
@@ -118,14 +135,6 @@ a {
     align-self: center;
 }
 
-.menu {
-    display: flex;
-    flex: 2;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 550px;
-
-}
 
 .switch {
     position: relative;
