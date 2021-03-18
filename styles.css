@@ -40,13 +40,14 @@
     display: none;
   }
 
-  .menu {
-    display: flex;
-    flex: 2;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 550px;
-  }
+    .menu {
+        display: flex;
+        flex: 2;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 550px;
+
+    }
 }
 
 /* ---------------- Fin Queries ------------------------ */
@@ -83,10 +84,37 @@ a {
   color: var(--title-color);
 }
 
-.burger a {
-  display: block;
-  border-bottom: 2px solid transparent;
-  padding: 10px 0px;
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .burger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex: 2;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 550px;
+
+    }
+}
+
+.burger a{
+    display: block;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
 }
 
 .burger a:hover {
@@ -199,9 +227,15 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-.review:hover h1, .about:hover h1, .form:hover h1 {
+
+.menu h1 {
+    padding: 5px 14px 10px 14px;
+}
+
+.menu h1:hover {
     background-color: var(--footer-color);
     color : var(--navbar-color);
+    border-radius: 40%;
 }
 
 /* -------------------- Fin Navbar -------------------- */
@@ -215,20 +249,25 @@ body {
 
 /*----------------------- Fin body --------------*/
 /*----------------------- Début Reviews --------------*/
-
-.categories {
-  width: 160px;
-  position: fixed;
-  left: 0;
-  padding-top: 20px;
+content{
+  display: flex;
+  text-decoration-style : none;
+  list-style-type: none;
 }
 
-.reviews-card {
-    display: flex;
-    margin: auto;
-    flex-direction:column;
-    font-family: var(--text-font);
+.categories{
+  background: beige;
+  display: block;
+  flex-direction: column;
+  width: 13%;
+  padding-bottom: 100%;
+  height: 100%;
+}
 
+.logoCategories{
+  margin: 3% 25% 3% 25%;
+  height: 35px;
+  width: 50px;
 }
 
 /*----------------------- Fin Reviews --------------*/
@@ -273,8 +312,8 @@ body {
 /*----------------------- Début Formulaire --------------*/
 
 fieldset {
-  text-align: center;
-  margin-top: 15px;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .champ {
