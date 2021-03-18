@@ -199,6 +199,10 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.review:hover h1, .about:hover h1, .form:hover h1 {
+    background-color: var(--footer-color);
+    color : var(--navbar-color);
+}
 
 /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début body --------------*/
@@ -219,34 +223,50 @@ body {
   padding-top: 20px;
 }
 
+.reviews-card {
+    display: flex;
+    margin: auto;
+    flex-direction:column;
+    font-family: var(--text-font);
+
+}
+
 /*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
 
 #aboutMeBody {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutMeText::first-letter {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: var(--title-color);
 }
 
 #aboutMeText {
-  display: block;
-  text-align: justify;
-  width: 80%;
-  font-family: var(--text-font);
-  margin-left: 10%;
-  margin-top: 2%;
-  margin-right: 10%;
-  margin-bottom: 8%;
-  font-size: 18px;
+    display: block;
+    line-height: 1.5em;
+    text-align: justify;
+    width : 80%;
+    font-family: var(--text-font);
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+    font-size: 18px;
 }
 
 #pictureOfMe {
-  width: 240px;
-  border-radius: 50%;
-  margin-top: 4%;
-  border-style: solid;
-  border-color: grey;
-  border-width: 1px;
+    width : 240px;
+    border-radius: 50%;
+    margin-top: 4%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
 }
 
 /* -------------------- Fin aboutme -------------------- */
