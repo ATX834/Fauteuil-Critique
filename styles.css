@@ -203,7 +203,7 @@ input:checked + .slider:before {
 /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début body --------------*/
 
- {
+body{
   font: var(--text-font) var(--text-color);
   min-width: 500px;
   background-color: var(--body-font);
@@ -249,8 +249,6 @@ content {
   padding: 5px;
   align-items: center;
   margin: 0;
-  /* justify-content: center; */
-  /* text-align: center; */
 }
 
 .reviews-navbar ul li {
