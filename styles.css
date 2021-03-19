@@ -15,9 +15,10 @@
     --footer-color: linear-gradient(#47EAD0, #FE277E);
     --title-font: "Jacques Francois", serif;
     --title-color: #f2ff43;
-    --text-color: rgb(248, 37, 37);
+    --text-color: rgb(255, 255, 255);
     --text-font: "Ibarra Real Nova", serif;
-    --body-font: #ffff49;
+    --text-font: #0000;
+    --body-font: url(source/barre_disco.jpg);
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -175,7 +176,7 @@ a {
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #FCFE19;
 }
 
 input:checked + .slider:before {
@@ -360,6 +361,7 @@ footer {
   width: 50px;
   height: 50px;
   float: right;
+  cursor: crosshair;
 }
 
 footer p {
