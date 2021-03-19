@@ -330,7 +330,8 @@ fieldset {
   margin: auto;
 }
 #prenom, #motif, #nom, #mail  {
-  margin: 1px;
+  margin-bottom: 4px;
+  margin-right: 5px;
   padding: 1px;
 }
 
