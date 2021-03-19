@@ -72,7 +72,7 @@ nav {
   display: flex;
   height: 100%;
   width: 97%;
-  justify-: space-between;
+  justify-content: space-between; 
   align-items: center;
   background-color: var(--navbar-color);
   font-family: var(--title-font);
