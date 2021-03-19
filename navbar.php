@@ -63,7 +63,7 @@
             <input type="checkbox" id="checkbox" />
             <div class="slider round"></div>
         </label>
-        <script src="/switch.js"></></script>
+        <script src="switch.js"></></script>
         <img src="source/disco-ball2.png" alt="disco-ball" width="80px" height="80px">
     </div>
 </nav>
