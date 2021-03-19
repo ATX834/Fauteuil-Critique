@@ -11,13 +11,13 @@
 }
 
 [data-theme="disco"] {
-  --navbar-color: #ff51f1;
-  --footer-color: #4db607;
-  --title-font: "Jacques Francois", serif;
-  --title-color: #f2ff43;
-  --text-color: rgb(248, 37, 37);
-  --text-font: "Ibarra Real Nova", serif;
-  --body-font: #ffff49;
+    --navbar-color: linear-gradient(#47EAD0, #FE277E);
+    --footer-color: linear-gradient(#47EAD0, #FE277E);
+    --title-font: "Jacques Francois", serif;
+    --title-color: #f2ff43;
+    --text-color: rgb(248, 37, 37);
+    --text-font: "Ibarra Real Nova", serif;
+    --body-font: #ffff49;
 }
 
 /* ---------------- Fin Root --------------------------- */
