@@ -55,10 +55,15 @@
     </div>
 
     <div class="colormode">
-        <label class='switch'>
+        <!-- <label class='switch'>
             <input type="checkbox">
             <span class="slider round"></span>
+        </label> -->
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
         </label>
+        <script src="/switch.js"></></script>
         <img src="source/disco-ball2.png" alt="disco-ball" width="80px" height="80px">
     </div>
 </nav>
