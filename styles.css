@@ -50,13 +50,26 @@
 }
 
 /* ---------------- Fin Queries ------------------------ */
+/*----------------------- Début body --------------*/
+
+body{
+  font: var(--text-font) var(--text-color);
+  min-width: 500px;
+  background-color: var(--body-font);
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/*----------------------- Fin body --------------*/
 /* ---------------- CSS Header ------------------------- */
 
 header {
-  position: fixed;
+  /* position: absolute; */
   top: 0;
   width: 100%;
   height: 10vh;
+  min-height: 100px;
   position: -webkit-sticky;
   position: sticky;
 }
@@ -65,7 +78,7 @@ header {
 /* -------------------- Content -----------------------*/
 
 content {
-  height : 80vh;
+  height : auto;
 }
 
 /* -------------------- Fin content ------------------- */
@@ -208,26 +221,17 @@ input:checked + .slider:before {
 }
 
 /* -------------------- Fin Navbar -------------------- */
-/*----------------------- Début body --------------*/
-
-body{
-  font: var(--text-font) var(--text-color);
-  min-width: 500px;
-  background-color: var(--body-font);
-  margin: 0;
-  height: 100vh;
-}
-
-
-/*----------------------- Fin body --------------*/
 /*----------------------- Début Index --------------*/
+
 .contenuIndex{
   display: inline-block;
+  margin-bottom: 10%;
 }
 
 .paragrapheIndex{
   flex-direction: column;
   margin : 0 25% 0 25%;
+  text-align: justify;
 }
 
 #GIFCHAT{
@@ -244,13 +248,13 @@ body{
   margin-bottom: 10vh;
   margin: 1% 0;
   justify-content: space-between;
-  height: 80vh;
 }
 
 .reviews-navbar {
   width: 15%;
   min-width: 100px;
   background: var(--navbar-color);
+  margin-right: 1%;
 }
 
 .reviews-navbar ul {
@@ -327,8 +331,7 @@ body{
 #contactForm {
   display: flex;
   justify-content: center;
-  margin-top: 6%;
-
+  margin: 10% 0;
 }
 
 fieldset {
@@ -357,13 +360,13 @@ textarea {
 
 footer {
   background: var(--footer-color);
-  /* position: fixed; */
+  /* position: absolute; */
   position: -webkit-sticky;
   position: sticky;
-  /* bottom: 0; */
+  bottom: 0;
   width: 100%;
   height: 10vh;
-  /* min-height: 80px; */
+  min-height: 80px;
 }
 
 .socialNetworkLogo {
