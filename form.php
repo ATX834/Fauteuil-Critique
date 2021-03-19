@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-    <content>
+    <content id ='contactFormContent'>
     <form id='contactForm'>
     <fieldset>
         <legend>Formulaire de contact</legend>
