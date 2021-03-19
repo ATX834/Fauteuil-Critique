@@ -1,3 +1,5 @@
+
+
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const currentTheme = localStorage.getItem('theme');
 
@@ -14,9 +16,10 @@ function switchTheme(e) {
         document.documentElement.setAttribute('data-theme', 'disco');
         localStorage.setItem('theme', 'disco');
     }
-    else {        document.documentElement.setAttribute('data-theme', 'light');
+    else {        
+        document.documentElement.setAttribute('data-theme', 'light');
           localStorage.setItem('theme', 'light');
     }    
 }
 
-toggleSwitch.addEventListener('change', switchTheme, false);
+toggleSwitch.addEventListener('change', switchTheme, false); 
