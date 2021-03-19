@@ -11,13 +11,13 @@
 }
 
 [data-theme="disco"] {
-    --navbar-color: #ff51f1;
-    --footer-color: #4db607;
-    --title-font: "Jacques Francois", serif;
-    --title-color: #f2ff43;
-    --text-color: rgb(248, 37, 37);
-    --text-font: "Ibarra Real Nova", serif;
-    --body-font: #ffff49;
+  --navbar-color: #ff51f1;
+  --footer-color: #4db607;
+  --title-font: "Jacques Francois", serif;
+  --title-color: #f2ff43;
+  --text-color: rgb(248, 37, 37);
+  --text-font: "Ibarra Real Nova", serif;
+  --body-font: #ffff49;
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -40,14 +40,13 @@
     display: none;
   }
 
-    .menu {
-        display: flex;
-        flex: 2;
-        justify-content: space-around;
-        align-items: center;
-        max-width: 550px;
-
-    }
+  .menu {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 550px;
+  }
 }
 
 /* ---------------- Fin Queries ------------------------ */
@@ -60,7 +59,6 @@ header {
   height: 100px;
   position: -webkit-sticky;
   position: sticky;
-  top: 1.5%;
 }
 
 /* --------------------Fin Header --------------------- */
@@ -70,12 +68,12 @@ nav {
   background: var(--navbar-color);
   display: flex;
   height: 100%;
-  width: 98.5%;
+  width: 97%;
   justify-content: space-between;
   align-items: center;
   background-color: var(--navbar-color);
   font-family: var(--title-font);
-  padding-right: 1.5%;
+  padding: 0 1.5%;
   list-style-type: none;
 }
 
@@ -84,37 +82,10 @@ a {
   color: var(--title-color);
 }
 
-@media screen and (max-width: 800px) {
-    .menu {
-        display: none;
-    }
-
-    .burger {
-        align-self: flex-start;
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 801px) {
-    .burger {
-        display: none;
-    }
-
-    .menu {
-        display: flex;
-        flex: 2;
-        justify-content: space-around;
-        align-items: center;
-        max-width: 550px;
-
-    }
-}
-
-.burger a{
-    display: block;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
+.burger a {
+  display: block;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
 }
 
 .burger a:hover {
@@ -159,10 +130,6 @@ a {
   cursor: pointer;
 }
 
-.logo-mobile {
-  padding-left: 1.5%;
-}
-
 .colormode {
   display: flex;
   width: 120px;
@@ -172,11 +139,6 @@ a {
 
 .colormode label {
   align-self: center;
-}
-
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
 }
 
 .theme-switch {
@@ -229,13 +191,13 @@ input:checked + .slider:before {
 }
 
 .menu h1 {
-    padding: 5px 14px 10px 14px;
+  padding: 5px 14px 10px 14px;
 }
 
 .menu h1:hover {
-    background-color: var(--footer-color);
-    color : var(--navbar-color);
-    border-radius: 40%;
+  background-color: var(--footer-color);
+  color: var(--navbar-color);
+  border-radius: 40%;
 }
 
 /* -------------------- Fin Navbar -------------------- */
@@ -244,7 +206,7 @@ input:checked + .slider:before {
 body{
   font: var(--text-font) var(--text-color);
   min-width: 500px;
-  background-color : var(--body-font);
+  background-color: var(--body-font);
   margin: 0;
 }
 
@@ -267,63 +229,88 @@ body{
 }
 /*----------------------- Fin Index --------------*/
 /*----------------------- Début Reviews --------------*/
-.contenuReviews{
+
+content {
   display: flex;
-  text-decoration-style : none;
+  text-decoration-style: none;
   list-style-type: none;
+  margin-bottom: 10vh;
+  margin: 1% 0;
+  justify-content: space-between;
 }
 
-.categories{
-  background: beige;
-  display: block;
+.reviews-navbar {
+  width: 15%;
+  min-width: 100px;
+  background: var(--navbar-color);
+}
+
+.reviews-navbar ul {
+  list-style-type: none;
+  text-decoration-style: none;
+  display: flex;
   flex-direction: column;
-  width: 13%;
-  padding-bottom: 100%;
-  height: 100%;
+  padding: 5px;
+  align-items: center;
+  margin: 0;
+  /* justify-content: center; */
+  /* text-align: center; */
 }
 
-.logoCategories{
-  margin: 3% 25% 3% 25%;
-  height: 35px;
+.reviews-navbar ul li {
+  height: 50px;
   width: 50px;
+  padding: 20px;
+}
+
+.reviews-navbar ul li img {
+  width: 100%;
+}
+
+.reviews-logo img {
+  width: 50%;
+}
+
+.reviews-card {
+  width: 80%;
 }
 
 /*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
 
 #aboutMeBody {
-    display : flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #aboutMeText::first-letter {
-    font-size: 54px;
-    font-weight: bold;
-    font-family: 'UnifrakturMaguntia', cursive;
-    color: var(--title-color);
+  font-size: 54px;
+  font-weight: bold;
+  font-family: "UnifrakturMaguntia", cursive;
+  color: var(--title-color);
 }
 
 #aboutMeText {
-    display: block;
-    line-height: 1.5em;
-    text-align: justify;
-    width : 80%;
-    font-family: var(--text-font);
-    margin-left: 10%;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-bottom: 4%;
-    font-size: 18px;
+  display: block;
+  line-height: 1.5em;
+  text-align: justify;
+  width: 80%;
+  font-family: var(--text-font);
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  font-size: 18px;
 }
 
 #pictureOfMe {
-    width : 240px;
-    border-radius: 50%;
-    margin-top: 4%;
-    border-style: solid;
-    border-color: grey;
-    border-width: 1px;
+  width: 240px;
+  border-radius: 50%;
+  margin-top: 4%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
 }
 
 /* -------------------- Fin aboutme -------------------- */
@@ -337,8 +324,8 @@ body{
 }
 
 fieldset {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .champ {
@@ -347,7 +334,8 @@ fieldset {
   margin: auto;
 }
 #prenom, #motif, #nom, #mail  {
-  margin: 1px;
+  margin-bottom: 4px;
+  margin-right: 5px;
   padding: 1px;
 }
 
@@ -361,15 +349,23 @@ textarea {
 
 footer {
   background: var(--footer-color);
-  position: fixed;
+  /* position: fixed; */
+  position: -webkit-sticky;
+  position: sticky;
   bottom: 0;
-  width: 98%;
+  width: 100%;
+  height: 10vh;
+  /* min-height: 80px; */
 }
 
 .socialNetworkLogo {
   width: 50px;
   height: 50px;
   float: right;
+}
+
+footer p {
+  margin: 0;
 }
 
 /*------------------- Fin Footer -----------------------*/
