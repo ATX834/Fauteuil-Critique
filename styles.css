@@ -245,6 +245,7 @@ input:checked + .slider:before {
   font: var(--text-font) var(--text-color);
   min-width: 500px;
   background-color : var(--body-font);
+  margin: 0;
 }
 
 /*----------------------- Fin body --------------*/
@@ -324,6 +325,13 @@ input:checked + .slider:before {
 /* -------------------- Fin aboutme -------------------- */
 /*----------------------- Début Formulaire --------------*/
 
+#contactFormContent {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+  
+}
+
 fieldset {
     text-align: center;
     margin-top: 15px;
@@ -331,8 +339,12 @@ fieldset {
 
 .champ {
   border: 1px #0f1b07;
-  padding: 5px;
+  padding: 2%;
   margin: auto;
+}
+#prenom, #motif, #nom, #mail  {
+  margin: 1px;
+  padding: 1px;
 }
 
 textarea {
