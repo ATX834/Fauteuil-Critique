@@ -210,6 +210,7 @@ body{
   margin: 0;
 }
 
+
 /*----------------------- Fin body --------------*/
 /*----------------------- Début Index --------------*/
 .contenuIndex{
@@ -218,10 +219,13 @@ body{
 
 .paragrapheIndex{
   flex-direction: column;
+  margin : 0 25% 0 25%
+
 }
 
 #GIFCHAT{
   margin: 0 25% 0 25%;
+  padding: 0;
 }
 /*----------------------- Fin Index --------------*/
 /*----------------------- Début Reviews --------------*/
@@ -314,7 +318,7 @@ content {
   display: flex;
   justify-content: center;
   margin-top: 6%;
-  
+
 }
 
 fieldset {
