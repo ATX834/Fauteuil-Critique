@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-<content>
+<content class="reviews">
   <div class="reviews-navbar">
     <?php
     /*
