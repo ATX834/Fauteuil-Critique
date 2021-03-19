@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-  <content>
+  <content class="contenuReviews">
     <div class="categories">
 <!-- <?php
 $categoriesArray = ['Jeux Vidéo','Film','Musique'];
@@ -23,7 +23,7 @@ for($i = 0; $i < count($categoriesArray); $i++)
       tranquer les templiers sur des iles bien remplies, les combats navals sont bien fait (au détriment du parkour)
       et rafraichissent le gameplay de la série. Niveau scénario c’est par contre le début de la fin pour la série,
       fini l’arc Desmond qu’on suit depuis le premier épisode, la couche «présent» est sans interet et votre personnage
-       Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmour. J’y ai quand même passé un très bon moment 
+       Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmour. J’y ai quand même passé un très bon moment
        et vous le recommande chaudement.</p>
        </div>
 
@@ -32,12 +32,12 @@ for($i = 0; $i < count($categoriesArray); $i++)
        Nom: Final Fantasy VII: Remake<br/>
        Editeur: Square Enix<br/>
        Date de sortie: 2020<br/>
-       <p>Un remake de la première partie du jeu culte sorti en 1997 qui se concentre sur la partie Midgar avec un peu de réécriture 
-       scénaristique par rapport au premier qui permet de creuser les rapports entre les personnages et suciter de l’interet pour la suite. 
-       Le plaisir de ce balader dans les taudis ou le Wall Market est indéniable, les musiques sont superbement réorchestrées et nos héros 
-       (qui ont désormais une voix et des expressions faciales) sont toujours aussi attachants. Le gameplay est un hybride entre action-RPG et 
-       système de tour à tour comme sur l’original. Les déplacements sont assez lents et la promesse de liberté dans Midgar n’est pas vraiment 
-       tenue tant les niveau sont finalement des suites de couloirs avec  assez peu d’interraction. Bon jeu quand même pour les nostalgiques qui 
+       <p>Un remake de la première partie du jeu culte sorti en 1997 qui se concentre sur la partie Midgar avec un peu de réécriture
+       scénaristique par rapport au premier qui permet de creuser les rapports entre les personnages et suciter de l’interet pour la suite.
+       Le plaisir de ce balader dans les taudis ou le Wall Market est indéniable, les musiques sont superbement réorchestrées et nos héros
+       (qui ont désormais une voix et des expressions faciales) sont toujours aussi attachants. Le gameplay est un hybride entre action-RPG et
+       système de tour à tour comme sur l’original. Les déplacements sont assez lents et la promesse de liberté dans Midgar n’est pas vraiment
+       tenue tant les niveau sont finalement des suites de couloirs avec  assez peu d’interraction. Bon jeu quand même pour les nostalgiques qui
        se termine assez rapidement et nous donne envie de voir la suite.</p>
        </div>
 
@@ -67,9 +67,9 @@ for($i = 0; $i < count($categoriesArray); $i++)
       Nom: Lucy<br/>
       Réalisateur: Luc Besson<br/>
       Date de sortie: 2014<br/>
-      <p>Peut-être l’un des pires films qui m’ait été donné de voir. Gros casting, Morgan Freeman joue le type plein de sagesse comme d’habitude, 
-      Scarlett Johansson est magnifique et le démarrage est plutôt sympa puis à partir de la scène ou elle se réveille en prison et commence à découvrir ses 
-      pouvoirs tout part en sucette avec des rebondissements toujours plus imporbables et mal amenés. Et puis ce final en apothéose (spoiler : à la fin Scarlett 
+      <p>Peut-être l’un des pires films qui m’ait été donné de voir. Gros casting, Morgan Freeman joue le type plein de sagesse comme d’habitude,
+      Scarlett Johansson est magnifique et le démarrage est plutôt sympa puis à partir de la scène ou elle se réveille en prison et commence à découvrir ses
+      pouvoirs tout part en sucette avec des rebondissements toujours plus imporbables et mal amenés. Et puis ce final en apothéose (spoiler : à la fin Scarlett
       devient tellement intelligente qu’elle se transforme en clef USB ). Nul de chez nul, à éviter à tout prix.</p>
       </div>
 
