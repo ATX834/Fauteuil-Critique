@@ -1,6 +1,6 @@
 <?php
 include 'header.php' ?>
-<!-- // ---------------------------content------------------------------ -->
+<content>
 <div id= 'aboutMeBody'>
     <img src="source/mypicture.jpg" alt="Picture of me" id="pictureOfMe">
     <div id= 'aboutMeText'>
@@ -31,7 +31,7 @@ include 'header.php' ?>
             conaissez tous mais à la nuit tombée je suis le héros dont cette ville à besoin. Je suis… Funky Fonzy.</p>
     </div>
 </div>
-    <!-- // ----------------------------end of content----------------------------- -->
+    </content>
     <?php
 include 'footer.php';
 ?>

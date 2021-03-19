@@ -1,12 +1,12 @@
 <?php include 'header.php' ?>
-<content>
+<content class="categorieReviews">
   <div class="reviews-navbar">
     <?php
     /*
     $categoriesArray = ['Jeux Vidéo', 'Film', 'Musique'];
     for ($i = 0; $i < count($categoriesArray); $i++) {
       echo "<li><img src='source/logo-$categoriesArray.png'</li>";
-    } 
+    }
     */
     ?>
     <ul class="reviews-logo">

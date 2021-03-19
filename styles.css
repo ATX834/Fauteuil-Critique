@@ -11,15 +11,6 @@
 }
 
 [data-theme="disco"] {
-<<<<<<< HEAD
-    --navbar-color: linear-gradient(#47EAD0, #FE277E);
-    --footer-color: linear-gradient(#47EAD0, #FE277E);
-    --title-font: "Jacques Francois", serif;
-    --title-color: #f2ff43;
-    --text-color: rgb(248, 37, 37);
-    --text-font: "Ibarra Real Nova", serif;
-    --body-font: #ffff49;
-=======
   --navbar-color: #ff51f1;
   --footer-color: #4db607;
   --title-font: "Jacques Francois", serif;
@@ -27,7 +18,6 @@
   --text-color: rgb(248, 37, 37);
   --text-font: "Ibarra Real Nova", serif;
   --body-font: #ffff49;
->>>>>>> b83ad63cfe34ca150dc0ad5bd5c1bc52590759db
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -53,7 +43,7 @@
   .menu {
     display: flex;
     flex: 2;
-    justify-content: space-around;
+    justify-: space-around;
     align-items: center;
     max-width: 550px;
   }
@@ -66,12 +56,15 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100px;
+  height: 10vh;
   position: -webkit-sticky;
   position: sticky;
 }
 
 /* --------------------Fin Header --------------------- */
+ {
+  height : 80vh;
+}
 /* ------------------ Debut Navbar -------------------- */
 
 nav {
@@ -79,7 +72,7 @@ nav {
   display: flex;
   height: 100%;
   width: 97%;
-  justify-content: space-between;
+  justify-: space-between;
   align-items: center;
   background-color: var(--navbar-color);
   font-family: var(--title-font);
@@ -144,7 +137,7 @@ a {
   display: flex;
   width: 120px;
   height: 100%;
-  justify-content: space-between;
+  justify-: space-between;
 }
 
 .colormode label {
@@ -176,7 +169,7 @@ a {
 .slider:before {
   background-color: #fff;
   bottom: 2px; /* 4px */
-  content: "";
+  : "";
   height: 13px; /* 26px */
   left: 2px; /* 4px */
   position: absolute;
@@ -218,6 +211,7 @@ body{
   min-width: 500px;
   background-color: var(--body-font);
   margin: 0;
+  height: 100vh;
 }
 
 
@@ -229,8 +223,7 @@ body{
 
 .paragrapheIndex{
   flex-direction: column;
-  margin : 0 25% 0 25%
-
+  margin : 0 25% 0 25%;
 }
 
 #GIFCHAT{
@@ -240,13 +233,14 @@ body{
 /*----------------------- Fin Index --------------*/
 /*----------------------- Début Reviews --------------*/
 
-content {
+.categorieReviews {
   display: flex;
   text-decoration-style: none;
   list-style-type: none;
   margin-bottom: 10vh;
   margin: 1% 0;
-  justify-content: space-between;
+  justify-: space-between;
+  height: 80vh;
 }
 
 .reviews-navbar {
@@ -324,9 +318,9 @@ content {
 /* -------------------- Fin aboutme -------------------- */
 /*----------------------- Début Formulaire --------------*/
 
-#contactFormContent {
+#contactForm {
   display: flex;
-  justify-content: center;
+  justify-: center;
   margin-top: 6%;
 
 }
@@ -360,7 +354,7 @@ footer {
   /* position: fixed; */
   position: -webkit-sticky;
   position: sticky;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
   height: 10vh;
   /* min-height: 80px; */
@@ -376,4 +370,4 @@ footer p {
   margin: 0;
 }
 
-/*------------------- Fin Footer -----------------------*/
+/*------------------- Fin Footer -----------------------*/;
