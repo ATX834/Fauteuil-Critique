@@ -55,10 +55,6 @@
     </div>
 
     <div class="colormode">
-        <!-- <label class='switch'>
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label> -->
         <label class="theme-switch" for="checkbox">
             <input type="checkbox" id="checkbox" />
             <div class="slider round"></div>
