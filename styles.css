@@ -241,7 +241,7 @@ input:checked + .slider:before {
 /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début body --------------*/
 
-body {
+ {
   font: var(--text-font) var(--text-color);
   min-width: 500px;
   background-color : var(--body-font);
@@ -249,8 +249,21 @@ body {
 }
 
 /*----------------------- Fin body --------------*/
+/*----------------------- Début Index --------------*/
+.contenuIndex{
+  display: inline-block;
+}
+
+.paragrapheIndex{
+  flex-direction: column;
+}
+
+#GIFCHAT{
+  margin: 0 25% 0 25%;
+}
+/*----------------------- Fin Index --------------*/
 /*----------------------- Début Reviews --------------*/
-content{
+.contenuReviews{
   display: flex;
   text-decoration-style : none;
   list-style-type: none;
