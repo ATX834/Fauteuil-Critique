@@ -8,6 +8,7 @@
   --text-color: black;
   --text-font: "Ibarra Real Nova", serif;
   --body-font: #fefee2;
+  --fieldset-color: #C6D166;
 }
 
 [data-theme="disco"] {
@@ -18,7 +19,8 @@
     --text-color: rgb(255, 255, 255);
     --text-font: "Ibarra Real Nova", serif;
     --text-font: #0000;
-    --body-font: url(source/barre_disco.jpg);
+    --body-image: url(source/barre_disco.jpg);
+    --fieldset-color: #fa9b0c;
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -57,6 +59,8 @@ body{
   font: var(--text-font) var(--text-color);
   min-width: 500px;
   background-color: var(--body-font);
+  background-image: var(--body-image);
+  color: var(--text-color);
   margin: 0;
   height: 100%;
   width: 100%;
@@ -349,7 +353,7 @@ input:checked + .slider:before {
 fieldset {
   text-align: center;
   margin-top: 15px;
-  background-color:#C6D166;
+  background-color: var(--fieldset-color);
   max-width:500px;
   padding:16px;	
   margin-bottom:0px;
@@ -403,6 +407,9 @@ footer {
   min-height: 80px;
   flex-shrink: 0;
 }
+.logo {
+  margin: 10px;
+}
 
 .socialNetworkLogo {
   width: 50px;
@@ -412,7 +419,7 @@ footer {
 }
 
 footer p {
-  margin: 0;
+  margin: 5px;
 }
 
 /*------------------- Fin Footer -----------------------*/;

@@ -16,7 +16,7 @@
                 <input type='mail' id='mail' name='Email' required>
             </div>
             <div class='champ'>
-                <label for='motif'> Pourquoi souhaitez vous nous contacter?</label>
+                <label for='motif'> Pourquoi souhaitez vous me contacter?</label>
                 <select id='motif' name='motif'>
                     <option value='don'>Compliments/Dons</option>
                     <option value='menace'>Insultes/Menaces</option>
