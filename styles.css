@@ -247,10 +247,15 @@ input:checked + .slider:before {
   display: inline-block;
 }
 
-.paragrapheIndex{
+/* .paragrapheIndex{
   flex-direction: column;
   margin : 0 25% 0 25%;
   text-align: justify;
+} */
+
+.paragrapheIndex, h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
 }
 
 #GIFCHAT{
