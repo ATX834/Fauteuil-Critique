@@ -18,8 +18,8 @@
             <div class='champ'>
                 <label for='motif'> Pourquoi souhaitez vous nous contacter?</label>
                 <select id='motif' name='motif'>
-                    <option value='don'>Compliment/Don</option>
-                    <option value='menace'>Insulte/Menace</option>
+                    <option value='don'>Compliments/Dons</option>
+                    <option value='menace'>Insultes/Menaces</option>
                     <option value='error'>Vous souhaitez nous signaler une erreur ou un problème sur le site.</option>
                     <option value='autres'>Vous souhaitez avoir d'autres informations.</option>
                 </select>
