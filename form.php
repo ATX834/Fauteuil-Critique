@@ -2,7 +2,7 @@
 <content id='contactFormContent'>
     <form id='contactForm' form action="mailto:pecapel.dev@gmail.com" method="post" enctype="text/plain">
         <fieldset>
-            <legend>Formulaire de contact</legend>
+            <img src="source/img_form.jpg">
             <div class='champ'>
                 <label for='nom'>Nom: </label>
                 <input type='text' id='nom' name='Nom' minlenght='2' maxlength='25' required>

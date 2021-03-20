@@ -349,12 +349,36 @@ input:checked + .slider:before {
 fieldset {
   text-align: center;
   margin-top: 15px;
-}
+  background-color:#C6D166;
+  max-width:500px;
+  padding:16px;	
+  margin-bottom:0px;
+  margin-left:16px;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 0px  #0F1B07;
+  }
+
+  fieldset, img{
+    border-radius: 10px;
+  }
 
 .champ {
-  border: 1px #0f1b07;
+  border: 2px #0f1b07;
   padding: 2%;
   margin: auto;
+}
+
+label
+{
+  margin: 0 15px 0 0px;
+  display: block;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  justify-items: center;
 }
 #prenom, #motif, #nom, #mail  {
   margin-bottom: 4px;
