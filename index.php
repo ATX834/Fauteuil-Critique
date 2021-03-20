@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<img src="source/feedback.jpg">
     <content class="contenuIndex">
 
       <div class="paragrapheIndex">

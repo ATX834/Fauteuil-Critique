@@ -21,6 +21,7 @@
     --text-font: #0000;
     --body-image: url(source/barre_disco.jpg);
     --fieldset-color: #fa9b0c;
+    
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -360,7 +361,7 @@ fieldset {
   margin-left:16px;
   border: 2px;
   border-radius: 10px;
-  box-shadow: 5px 5px 0px  #0F1B07;
+  box-shadow: 0px 1px 2px #ccc;
   }
 
   fieldset, img{
