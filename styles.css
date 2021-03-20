@@ -1,14 +1,15 @@
 /* ------------------ Root ------------------------ */
 
 :root {
-  --navbar-color: #c6d166;
+  --navbar-color: #f5fef5 /*#c6d166*/;
   --footer-color: #0f1b07;
+  --separator-color: #0f1b07;
   --title-font: "Jacques Francois", serif;
   --title-color: #0f1b07;
   --text-color: black;
   --text-font: "Ibarra Real Nova", serif;
-  --body-font: #fefee2;
-  --fieldset-color: #C6D166;
+  --body-font: #fefefe /*#fefee2*/;
+  --fieldset-color: #c6d166;
 }
 
 [data-theme="disco"] {
@@ -25,38 +26,9 @@
 }
 
 /* ---------------- Fin Root --------------------------- */
-/* ---------------- Debut Queries ---------------------- */
-
-@media screen and (max-width: 800px) {
-  .menu {
-    display: none;
-  }
-
-  .burger {
-    align-self: flex-start;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 801px) {
-  .burger {
-    display: none;
-  }
-
-  .menu {
-    display: flex;
-    flex: 2;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 550px;
-  }
-}
-
-/* ---------------- Fin Queries ------------------------ */
 /*----------------------- Début body --------------*/
 
-body{
+body {
   font: var(--text-font) var(--text-color);
   min-width: 500px;
   background-color: var(--body-font);
@@ -86,7 +58,7 @@ header {
 /* -------------------- Content -----------------------*/
 
 content {
-  height : auto;
+  height: auto;
   min-height: 80vh;
   padding-top: 10vh;
   flex: 1 0 auto;
@@ -100,7 +72,7 @@ nav {
   display: flex;
   height: 100%;
   width: 97%;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   background-color: var(--navbar-color);
   font-family: var(--title-font);
@@ -111,6 +83,24 @@ nav {
 a {
   text-decoration: none;
   color: var(--title-color);
+}
+
+/* a:visited {
+  color: inherit;
+} */
+
+@media screen and (min-width: 801px) {
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .burger {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 #burger-icon {
@@ -170,6 +160,21 @@ a {
   height: 100%;
 }
 
+/* .logo-mobile {
+  transition: 0.2s;
+} */
+
+.logo-mobile:hover {
+  /* transform: rotate(360deg); */
+  /* transition: 1s; */
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
 .colormode {
   display: flex;
   width: 120px;
@@ -215,11 +220,11 @@ a {
 }
 
 input:checked + .slider {
-  background-color: #FCFE19;
+  background-color: #000000;
 }
 
 input:checked + .slider:before {
-  transform: translateX(13px); /* 26px */
+  transform: translateX(8px); /* 26px */
 }
 
 .slider.round {
@@ -230,26 +235,43 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .menu {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 550px;
+  }
+}
+
 .menu h1 {
   padding: 5px 14px 10px 14px;
+  transition: 0.2s;
 }
 
 .menu h1:hover {
-  background-color: var(--footer-color);
-  color: var(--navbar-color);
-  border-radius: 40%;
+  /* color: var(--body-font); */
+  font-size: 1.8rem;
+  transition: 0.3s;
 }
 
 /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début Index --------------*/
 
-.contenuIndex{
+.contenuIndex {
   display: inline-block;
 }
 
-/* .paragrapheIndex{
+.paragrapheIndex {
   flex-direction: column;
-  margin : 0 25% 0 25%;
+  margin: 0 25% 0 25%;
   text-align: justify;
 } */
 
@@ -258,7 +280,7 @@ input:checked + .slider:before {
 
 }
 
-#GIFCHAT{
+#GIFCHAT {
   margin: 0 25% 0 25%;
   padding: 0;
 }
@@ -268,45 +290,141 @@ input:checked + .slider:before {
 .reviews {
   display: flex;
   list-style-type: none;
-  margin: 1% 0;
+  margin: 2% 0 1% 0;
   justify-content: space-between;
 }
 
 .reviews-navbar {
-  width: 15%;
-  min-width: 100px;
-  background: var(--navbar-color);
-  margin-right: 1%;
+  /* background: var(--body-font); */
+  margin-left: 1%;
+  position: fixed;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-navbar {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-navbar {
+    width: 90px;
+  }
+}
+
+.reviews-filter {
+  height: 60px;
+  width: 140px;
+  margin: 10px;
+  position: relative;
+  background-color: #fefefe;
+  border-radius: 15px;
+  transition: 0.1s;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.reviews-filter button {
+  background-color: #fefefe;
+  border-radius: 15px;
+  list-style-type: none;
+  text-decoration-style: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  transition: 0.1s;
+}
+
+.reviews-filter button:active {
+  font-size: 0.75em;
 }
 
 .reviews-navbar ul {
   list-style-type: none;
   text-decoration-style: none;
   display: flex;
-  flex-direction: column;
-  padding: 5px;
-  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
   margin: 0;
-  /* position: -webkit-sticky;
-  position: sticky;   */
 }
 
 .reviews-navbar ul li {
-  height: 50px;
-  width: 50px;
-  padding: 20px;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border-radius: 15px;
+  /* box-shadow: 0 0 4px rgb(121, 121, 121); */
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
-.reviews-navbar ul li img {
+.reviews-logo li button {
+  position: relative;
+  border: none;
   width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  border-radius: 15px;
+  outline: none;
+  transition: 0.1s;
 }
 
-.reviews-logo img {
-  width: 50%;
+.reviews-logo li button:active {
+  background-size: 45px;
+}
+
+.reviews-separator {
+  width: 1px;
+  background-color: var(--footer-color);
+  box-shadow: 0 0 2px var(--footer-color);
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-separator {
+    margin-left: calc(2% + 170px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-separator {
+    margin-left: calc(2% + 90px);
+  }
 }
 
 .reviews-card {
-  width: 80%;
+  margin: 0 2%;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-card {
+    width: calc(100% - 170px - 2%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-card {
+    width: calc(100% - 90px - 2%);
+  }
+}
+
+#card {
+  border-radius: 5px;
+  /* box-shadow: 0 0 3px black; */
+  padding: 2% 3%;
+  margin: 5% 0;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.hidden {
+  display: none;
 }
 
 /*----------------------- Fin Reviews --------------*/
@@ -360,18 +478,19 @@ fieldset {
   text-align: center;
   margin-top: 15px;
   background-color: var(--fieldset-color);
-  max-width:500px;
-  padding:16px;	
-  margin-bottom:0px;
-  margin-left:16px;
+  max-width: 500px;
+  padding: 16px;
+  margin-bottom: 0px;
+  margin-left: 16px;
   border: 2px;
   border-radius: 10px;
   box-shadow: 0px 1px 2px #ccc;
-  }
+}
 
-  fieldset, img{
-    border-radius: 10px;
-  }
+fieldset,
+fieldset img {
+  border-radius: 10px;
+}
 
 .champ {
   border: 2px #0f1b07;
@@ -379,8 +498,7 @@ fieldset {
   margin: auto;
 }
 
-label
-{
+label {
   margin: 0 15px 0 0px;
   display: block;
   text-align: center;
@@ -390,7 +508,10 @@ input {
   text-align: center;
   justify-items: center;
 }
-#prenom, #motif, #nom, #mail  {
+#prenom,
+#motif,
+#nom,
+#mail {
   margin-bottom: 4px;
   margin-right: 5px;
   padding: 1px;
@@ -428,4 +549,4 @@ footer p {
   margin: 5px;
 }
 
-/*------------------- Fin Footer -----------------------*/;
+/*------------------- Fin Footer -----------------------*/ ;
