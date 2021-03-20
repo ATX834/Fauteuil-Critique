@@ -1,9 +1,9 @@
 <nav>
 
-    <div class="burger">
-        <div style="padding:10% 0 0 10%">
+    <div  class="burger">
+        <div id="burger-icon">
             <button class="button-burger">
-                <img id='burger-menu' src="source/burger-menu-icon.jpg" alt="burger-menu" width="100%" height="100%">
+                <img id='burger-menu' src="source/burger-menu-icon.jpg" alt="burger-menu">
             </button>
         </div>
         <div class="burger-click">
@@ -59,7 +59,7 @@
             <input type="checkbox" id="checkbox" />
             <div class="slider round"></div>
         </label>
-        <script src="switch.js"></></script>
         <img src="source/disco-ball2.png" alt="disco-ball" width="80px" height="80px">
     </div>
+    <script src="switch.js"></script>
 </nav>

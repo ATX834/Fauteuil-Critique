@@ -12,6 +12,6 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <?php include 'navbar.php' ?>
     </header>
