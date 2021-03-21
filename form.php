@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<main id="swup" class="transition-fade">
 <content id='contactFormContent'>
     <form id='contactForm' form action="mailto:pecapel.dev@gmail.com" method="post" enctype="text/plain">
         <fieldset>
@@ -31,4 +32,5 @@
         </fieldset>
     </form>
 </content>
+</main>
 <?php include 'footer.php' ?>

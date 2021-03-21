@@ -1,4 +1,6 @@
 <?php include 'header.php' ?>
+<main id="swup" class="transition-fade">
+
 <content class="reviews">
 
   <div class="reviews-navbar">
@@ -97,4 +99,5 @@
     </div>
   </div>
 </content>
+</main>
 <?php include 'footer.php' ?>

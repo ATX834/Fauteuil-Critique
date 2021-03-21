@@ -30,24 +30,24 @@
 
         <div class="menu">
             <div class="home">
-                <a href="index.php">
+                <a href="/index.php">
                     <h1>Home</h1>
                     <!-- <img id='logo' src="source/home-icon.png" alt="home-icon" width="50px" height="50px"> -->
                 </a>
             </div>
             <div class="review">
-                <a href="reviews.php">
+                <a href="/reviews.php">
                     <h1>Reviews</h1>
                 </a>
             </div>
             <div class="about">
-                <a href="aboutme.php">
+                <a href="/aboutme.php">
                     <h1>A propos</h1>
                 </a>
             </div>
 
             <div class="form">
-                <a href="form.php">
+                <a href="/form.php">
                     <h1>Contact</h1>
                 </a>
             </div>
@@ -64,16 +64,16 @@
     <div class="navbar-list">
         <ul>
             <li>
-                <a href="index.php">Home</a>
+                <a href="/index.php">Home</a>
             </li>
             <li>
-                <a href="reviews.php">Reviews</a>
+                <a href="/reviews.php">Reviews</a>
             </li>
             <li>
-            <a href="aboutme.php">About</a>
+            <a href="/aboutme.php">About</a>
             </li>
             <li>
-            <a href="form.php">Contact</a>
+            <a href="/form.php">Contact</a>
             </li>
         </ul>
     </div>

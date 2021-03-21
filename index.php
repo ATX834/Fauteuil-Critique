@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<main id="swup" class="transition-fade">
 <content class="contenuIndex">
   <img src="source/feedback.jpg" style="width: 100%">
 
@@ -37,4 +38,5 @@
   <img id="GIFCHAT" src="source/CatRunning.gif" width="200px" height="160px">
 
 </content>
+</main>
 <?php include 'footer.php' ?>

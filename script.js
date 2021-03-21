@@ -90,3 +90,4 @@ function openMenu() {
 }
 
 /* ---------------------- Burger menu ------------------------*/
+const swup = new Swup();
