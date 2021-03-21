@@ -1,25 +1,55 @@
 <?php include 'header.php' ?>
 <content class="reviews">
+
   <div class="reviews-navbar">
-    <?php
-    /*
-    $categoriesArray = ['Jeux Vidéo', 'Film', 'Musique'];
-    for ($i = 0; $i < count($categoriesArray); $i++) {
-      echo "<li><img src='source/logo-$categoriesArray.png'</li>";
-    }
-    */
-    ?>
+
+    <div class="reviews-filter">
+
+      <button id="filter-off" type="text" onclick="reviewclick('all')">
+
+        <h3>Remove filter</h3>
+      </button>
+    </div>
+
     <ul class="reviews-logo">
-      <li><img src='source/logo-Jeux Vidéo.png'></li>
-      <li><img src='source/logo-Film.png'></li>
-      <li><img src='source/logo-Musique.png'></li>
+
+      <li>
+        <button id="reviews-button1" type="image" onclick="reviewclick('videogame')" style="background-image: url(source/logo-jeuxvideo.png);"></button>
+      </li>
+
+      <li>
+        <button id="reviews-button2" type="image" onclick="reviewclick('film')" style="background-image: url(source/logo-Film.png);"></button>
+      </li>
+
+      <li>
+        <button id="reviews-button3" type="image" onclick="reviewclick('book')" style="background-image: url(source/logo-Musique.png);"></button>
+      </li>
     </ul>
   </div>
 
+  <div class="reviews-separator"></div>
+
   <div class="reviews-card">
+
     <div class="cat-1">
-      <h1>Critiques Jeux Vidéos</h1>
+
+      <h1>Catégorie Jeux Vidéos</h1>
       <div id="card">
+
+        <img src="source/black_flag.jpeg"><br />
+        Nom: Assassin’s Creed: Black Flag<br />
+        Editeur: Ubisoft<br />
+        Date de sortie: 2013<br />
+        <p>Un monde ouvert énorme et immersif dans les caraibes de l’age d’or de la piraterie. On se régale d’aller
+          tranquer les templiers sur des iles bien remplies, les combats navals sont bien fait (au détriment du parkour)
+          et rafraichissent le gameplay de la série. Niveau scénario c’est par contre le début de la fin pour la série,
+          fini l’arc Desmond qu’on suit depuis le premier épisode, la couche «présent» est sans interet et votre personnage
+          Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmmour. J’y ai quand même passé un très bon moment
+          et vous le recommande chaudement.</p>
+      </div>
+
+      <div id="card">
+
         <img src="source/black_flag.jpeg"><br />
         Nom: Assassin’s Creed: Black Flag<br />
         Editeur: Ubisoft<br />
@@ -34,8 +64,10 @@
     </div>
 
     <div class="cat-2">
+
       <h1>Critiques Filmographiques</h1>
       <div id="card">
+
         <img src="source/choc_titans.jpg"><br />
         Nom : Le Choc des Titans<br />
         Réalisateur: Louis Leterrier<br />
@@ -49,8 +81,10 @@
     </div>
 
     <div class="cat-3">
+
       <h1>Critiques Littéraires</h1>
       <div id="card">
+
         <img src="source/obelix_compagnie.jpg"><br />
         Nom: Obélix et Compagnie<br />
         Auteur: René Goscinny et Albert Uderzo<br />
