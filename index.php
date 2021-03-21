@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-<img src="source/feedback.jpg" style="padding-top: 10vh;">
+<img src="source/feedback.jpg" style="margin-top: 10vh;">
 <content class="contenuIndex">
 
   <div class="paragrapheIndex">
