@@ -13,16 +13,15 @@
 }
 
 [data-theme="disco"] {
-    --navbar-color: linear-gradient(#47EAD0, #FE277E);
-    --footer-color: linear-gradient(#47EAD0, #FE277E);
-    --title-font: "Jacques Francois", serif;
-    --title-color: #f2ff43;
-    --text-color: rgb(255, 255, 255);
-    --text-font: "Ibarra Real Nova", serif;
-    --text-font: #0000;
-    --body-image: url(source/barre_disco.jpg);
-    --fieldset-color: #000000;
-    
+  --navbar-color: linear-gradient(#47ead0, #fe277e);
+  --footer-color: linear-gradient(#47ead0, #fe277e);
+  --title-font: "Jacques Francois", serif;
+  --title-color: #f2ff43;
+  --text-color: rgb(255, 255, 255);
+  --text-font: "Ibarra Real Nova", serif;
+  --text-font: #0000;
+  --body-image: url(source/barre_disco.jpg);
+  --fieldset-color: #000000;
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -42,19 +41,6 @@ body {
 }
 
 /*----------------------- Fin body --------------*/
-/* ---------------- CSS Header ------------------------- */
-
-header {
-  top: 0;
-  width: 100%;
-  height: 10vh;
-  min-height: 90px;
-  position: fixed;
-  overflow: hidden;
-  box-shadow: 0 5px 5px rgb(172, 172, 172);
-}
-
-/* --------------------Fin Header --------------------- */
 /* -------------------- Content -----------------------*/
 
 content {
@@ -68,26 +54,37 @@ content {
 /* ------------------ Debut Navbar -------------------- */
 
 nav {
-  background: var(--navbar-color);
+  top: 0;
+  /* height: 10vh; */
+  /* min-height: 90px; */
+  position: fixed;
+  overflow: hidden;
   display: flex;
-  height: 100%;
-  width: 97%;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  list-style-type: none;
+  background: var(--navbar-color);
+  width: 100%;
   background-color: var(--navbar-color);
   font-family: var(--title-font);
+  box-shadow: 0 5px 5px rgb(172, 172, 172);
+}
+
+.navbar-main {
+  height: 10vh;
+  min-height: 90px;
+  width: 97%;
   padding: 0 1.5%;
-  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px rgb(172, 172, 172);
 }
 
 a {
   text-decoration: none;
   color: var(--title-color);
 }
-
-/* a:visited {
-  color: inherit;
-} */
 
 @media screen and (min-width: 801px) {
   .burger {
@@ -160,19 +157,29 @@ a {
   height: 100%;
 }
 
-/* .logo-mobile {
-  transition: 0.2s;
-} */
+.logo-mobile {
+  justify-self: center;
+}
 
-.logo-mobile:hover {
-  /* transform: rotate(360deg); */
-  /* transition: 1s; */
-  animation: spin 1s linear infinite;
+@media screen and (min-width: 801px) {
+  .logo-mobile {
+    transition: 0.2s;
+  }
+
+  .logo-mobile:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    /* animation: spin 1s linear infinite; */
+  }
 }
 
 @keyframes spin {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .colormode {
@@ -188,9 +195,9 @@ a {
 
 .theme-switch {
   display: inline-block;
-  height: 17px; /* 34px */
+  height: 17px;
   position: relative;
-  width: 30px; /* 60px */
+  width: 30px;
 }
 
 .theme-switch input {
@@ -210,13 +217,13 @@ a {
 
 .slider:before {
   background-color: #fff;
-  bottom: 2px; /* 4px */
+  bottom: 2px;
   content: "";
-  height: 13px; /* 26px */
-  left: 2px; /* 4px */
+  height: 13px;
+  left: 2px;
   position: absolute;
   transition: 0.4s;
-  width: 13px; /* 26px */
+  width: 13px;
 }
 
 input:checked + .slider {
@@ -224,11 +231,11 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-  transform: translateX(8px); /* 26px */
+  transform: translateX(8px);
 }
 
 .slider.round {
-  border-radius: 17px; /* 34px */
+  border-radius: 17px;
 }
 
 .slider.round:before {
@@ -262,6 +269,41 @@ input:checked + .slider:before {
   transition: 0.3s;
 }
 
+.navbar-list {
+  min-height: 90px;
+  height: 10vh;
+  width: 100%;
+  background-color: var(--navbar-color);
+  top: 0;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 5px 5px rgb(172, 172, 172);
+  transition: 0.5s;
+}
+
+.navbar-list ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  align-self: flex-end;
+  margin: 10px 0;
+}
+
+.navbar-list ul li {
+  padding: 10px;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.navbar-open {
+  display: flex;
+  transition: 0.8s;
+  height: 220px;
+  top: 0;
+  transition: 1s;
+}
+
 /* -------------------- Fin Navbar -------------------- */
 /*----------------------- Début Index --------------*/
 
@@ -273,11 +315,10 @@ input:checked + .slider:before {
   flex-direction: column;
   margin: 0 25% 0 25%;
   text-align: justify;
-} */
-
-.paragrapheIndex, h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
+}
+*/ .paragrapheIndex,
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #GIFCHAT {
@@ -295,8 +336,7 @@ input:checked + .slider:before {
 }
 
 .reviews-navbar {
-  /* background: var(--body-font); */
-  margin-left: 1%;
+  margin-left: 1.5%;
   position: fixed;
 }
 
@@ -315,19 +355,34 @@ input:checked + .slider:before {
 .reviews-filter {
   height: 60px;
   width: 140px;
-  margin: 10px;
+  margin: 30px 10px 30px 10px;
   position: relative;
   background-color: #fefefe;
-  border-radius: 15px;
+  border-radius: 10px;
   transition: 0.1s;
-  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-filter {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-filter {
+    width: 60px;
+  }
 }
 
 .reviews-filter button {
   background-color: #fefefe;
-  border-radius: 15px;
+  border-radius: 10px;
   list-style-type: none;
   text-decoration-style: none;
   border: none;
@@ -335,6 +390,18 @@ input:checked + .slider:before {
   width: 100%;
   height: 100%;
   transition: 0.1s;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-filter button {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-filter button {
+    font-size: 0.7em;
+  }
 }
 
 .reviews-filter button:active {
@@ -354,11 +421,14 @@ input:checked + .slider:before {
   height: 60px;
   width: 60px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   /* box-shadow: 0 0 4px rgb(121, 121, 121); */
-  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .reviews-logo li button {
@@ -370,7 +440,7 @@ input:checked + .slider:before {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50px;
-  border-radius: 15px;
+  border-radius: 10px;
   outline: none;
   transition: 0.1s;
 }
@@ -414,17 +484,22 @@ input:checked + .slider:before {
 }
 
 #card {
-  border-radius: 5px;
-  /* box-shadow: 0 0 3px black; */
   padding: 2% 3%;
   margin: 5% 0;
-  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .hidden {
   display: none;
+}
+
+.selected {
+  background-color: black;
 }
 
 /*----------------------- Fin Reviews --------------*/
@@ -523,11 +598,26 @@ textarea {
 }
 
 /*----------------------- Fin Formulaire ----------------*/
+/*----------------------- Debut Scroll Top --------------*/
+
+#scroll-to-top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 115px;
+  right: 30px;
+}
+
+#scroll-to-top a img {
+  transition: 1s;
+  width: 40px;
+}
+
+/*------------------- Fin Scroll Top -------------------*/
 /*------------------- Début Footer ---------------------*/
 
 footer {
   background: var(--footer-color);
-  /* position: fixed; */
   bottom: 0;
   width: 100%;
   height: 10vh;
