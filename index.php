@@ -2,10 +2,10 @@
 <img src="source/feedback.jpg" style="margin-top: 10vh;">
 <content class="contenuIndex">
 
-  <div class="paragrapheIndex">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <img>
+  <div class="titreIndex">
+    <h1>"La <span>critique</span> peut être désagréable, mais elle est nécessaire. 
+      Elle est comme la douleur pour le corps humain: elle attire l'attention sur ce qui ne va pas." <br/> -- Winston CHURCHILL --
+    </h1>
   </div>
 
   <div class="paragrapheIndex">

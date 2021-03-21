@@ -1,11 +1,11 @@
 /* ------------------ Root ------------------------ */
 
 :root {
-  --navbar-color: #f5fef5 /*#c6d166*/;
+  --navbar-color: /*#f5fef5*/ #c6d166;
   --footer-color: #0f1b07;
   --separator-color: #0f1b07;
   --title-font: "Jacques Francois", serif;
-  --title-color: #0f1b07;
+  /* --title-color: #0f1b07; */
   --text-color: black;
   --text-font: "Ibarra Real Nova", serif;
   --body-font: #fefefe /*#fefee2*/;
@@ -264,7 +264,7 @@ input:checked + .slider:before {
 }
 
 .menu h1:hover {
-  /* color: var(--body-font); */
+  color: var(--body-font);
   font-size: 1.8rem;
   transition: 0.3s;
 }
@@ -316,10 +316,16 @@ input:checked + .slider:before {
   margin: 0 25% 0 25%;
   text-align: justify;
 }
-*/ .paragrapheIndex,
+
+.paragrapheIndex,
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+/* .titreIndex {
+  font-family: 
+
+}*/
 
 #GIFCHAT {
   margin: 0 25% 0 25%;
@@ -635,8 +641,9 @@ footer {
   cursor: crosshair;
 }
 
-footer p {
-  margin: 5px;
+footer div {
+  margin: 30px;
+  color: var(--fieldset-color)
 }
 
 /*------------------- Fin Footer -----------------------*/ ;

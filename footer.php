@@ -11,9 +11,9 @@
       <a href="www.facbook.com"><img class="socialNetworkLogo" src="source/facebook.png" alt="Bouton Facebook"></a>
       <a href="www.instagram.com"><img class="socialNetworkLogo" src="source/instagram.png" alt="Bouton Instagram"></a>
     </div>
-    <p>
-      <a href="form.php" style="color : white;">Contact</a>
-    </p>
+    <div>
+      <a href="form.php">Contactez moi</a>
+</div>
   </footer>
   </body>
   <script src="script.js"></script>
