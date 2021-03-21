@@ -35,8 +35,6 @@
     <img>
   </div>
 
-  <img id="GIFCHAT" src="source/CatRunning.gif" width="200px" height="160px">
-
 </content>
 </main>
 <?php include 'footer.php' ?>
