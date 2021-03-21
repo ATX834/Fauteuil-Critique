@@ -12,6 +12,4 @@
 </head>
 
 <body>
-    <header id="header">
-        <?php include 'navbar.php' ?>
-    </header>
+    <?php include 'navbar.php' ?>
