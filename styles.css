@@ -50,6 +50,13 @@ content {
   flex: 1 0 auto;
 }
 
+@media screen and (max-width: 800px) {
+  content {
+    padding-top: 90px;
+  }
+}
+
+
 /* -------------------- Fin content ------------------- */
 /* ------------------ Debut Navbar -------------------- */
 
