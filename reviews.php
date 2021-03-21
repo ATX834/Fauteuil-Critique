@@ -44,7 +44,7 @@
           tranquer les templiers sur des iles bien remplies, les combats navals sont bien fait (au détriment du parkour)
           et rafraichissent le gameplay de la série. Niveau scénario c’est par contre le début de la fin pour la série,
           fini l’arc Desmond qu’on suit depuis le premier épisode, la couche «présent» est sans interet et votre personnage
-          Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmmour. J’y ai quand même passé un très bon moment
+          Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmour. J’y ai quand même passé un très bon moment
           et vous le recommande chaudement.</p>
       </div>
 
@@ -58,7 +58,7 @@
           tranquer les templiers sur des iles bien remplies, les combats navals sont bien fait (au détriment du parkour)
           et rafraichissent le gameplay de la série. Niveau scénario c’est par contre le début de la fin pour la série,
           fini l’arc Desmond qu’on suit depuis le premier épisode, la couche «présent» est sans interet et votre personnage
-          Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmmour. J’y ai quand même passé un très bon moment
+          Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmour. J’y ai quand même passé un très bon moment
           et vous le recommande chaudement.</p>
       </div>
     </div>

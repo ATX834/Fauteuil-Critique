@@ -5,7 +5,7 @@
   --footer-color: #0f1b07;
   --separator-color: #0f1b07;
   --title-font: "Jacques Francois", serif;
-  /* --title-color: #0f1b07; */
+  --title-color: #0f1b07;
   --text-color: black;
   --text-font: "Ibarra Real Nova", serif;
   --body-font: #fefefe /*#fefee2*/;
@@ -19,7 +19,6 @@
   --title-color: #f2ff43;
   --text-color: rgb(255, 255, 255);
   --text-font: "Ibarra Real Nova", serif;
-  --text-font: #0000;
   --body-image: url(source/barre_disco.jpg);
   --fieldset-color: #000000;
 }
@@ -318,11 +317,21 @@ input:checked + .slider:before {
   display: inline-block;
 }
 
-.paragrapheIndex, .titreIndex {
+.paragrapheIndex {
   flex-direction: column;
   margin: 0 15% 0 15%;
   text-align: justify;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: var(--title-font);
+}
+
+.titreIndex {
+  font-family: var(--title-font);
+  flex-direction: column;
+  margin: 0 15% 0 15%;
+  text-align: center;
+  color: var(--title-color);
+  text-shadow: 0.4em 0.4em 0.6em;
+
 }
 
 #GIFCHAT {
@@ -581,6 +590,7 @@ label {
   margin: 0 15px 0 0px;
   display: block;
   text-align: center;
+  font-family: 'Rokkitt', serif;
 }
 
 input {
