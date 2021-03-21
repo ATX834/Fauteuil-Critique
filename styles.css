@@ -311,21 +311,12 @@ input:checked + .slider:before {
   display: inline-block;
 }
 
-.paragrapheIndex {
+.paragrapheIndex, .titreIndex {
   flex-direction: column;
-  margin: 0 25% 0 25%;
+  margin: 0 15% 0 15%;
   text-align: justify;
-}
-
-.paragrapheIndex,
-h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
-/* .titreIndex {
-  font-family: 
-
-}*/
 
 #GIFCHAT {
   margin: 0 25% 0 25%;
