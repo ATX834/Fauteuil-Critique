@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
-<img src="source/feedback.jpg" style="margin-top: 10vh;">
 <content class="contenuIndex">
+  <img src="source/feedback.jpg" style="width: 100%">
 
   <div class="titreIndex">
     <h1>"La <span>critique</span> peut être désagréable, mais elle est nécessaire. 
