@@ -16,15 +16,15 @@
     <ul class="reviews-logo">
 
       <li>
-        <button id="reviews-button1" type="image" onclick="reviewclick('videogame')" style="background-image: url(source/logo-jeuxvideo.png);"></button>
+        <button id="reviews-button1" class="select-review" data-category="videogame" type="image" style="background-image: url(source/logo-jeuxvideo.png);"></button>
       </li>
 
       <li>
-        <button id="reviews-button2" type="image" onclick="reviewclick('film')" style="background-image: url(source/logo-Film.png);"></button>
+        <button id="reviews-button2" class="select-review" data-category="film" type="image" style="background-image: url(source/logo-Film.png);"></button>
       </li>
 
       <li>
-        <button id="reviews-button3" type="image" onclick="reviewclick('book')" style="background-image: url(source/logo-Musique.png);"></button>
+        <button id="reviews-button3" class="select-review" data-category="book" type="image" style="background-image: url(source/logo-Musique.png);"></button>
       </li>
     </ul>
   </div>

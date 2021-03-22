@@ -27,17 +27,10 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 
 /* ---------------------- Reviews clicks ---------------------*/
 
+function reviewclick(e) {
 const cat1 = document.querySelector(".cat-1");
 const cat2 = document.querySelector(".cat-2");
 const cat3 = document.querySelector(".cat-3");
-
-// const icon1 = document.getElementById('reviews-button1');
-// const icon2 = document.getElementById('reviews-button2');
-// const icon3 = document.getElementById('reviews-button3');
-
-// console.log(cat1, cat2, cat3, icon1, icon2, icon3);
-
-function reviewclick(e) {
   if (e === "all") {
     cat1.classList.remove("hidden");
     cat2.classList.remove("hidden");
@@ -91,7 +84,17 @@ function openMenu() {
 
 /* ---------------------- Burger menu ------------------------*/
 
+
 /* ---------------------- Transitions ------------------------*/
+function init() {
+  document.querySelectorAll('.select-review').forEach(element => {
+    element.addEventListener('click', e => {
+      reviewclick(e.target.dataset.category);
+})
+  });
+}
+init();
 const swup = new Swup();
+swup.on('contentReplaced', init);
 
 /* ---------------------- Transitions ------------------------*/
