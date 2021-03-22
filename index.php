@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <content class="contenuIndex">
-  <img src="source/feedback.jpg" style="width: 100%">
+  <img src="source/photo_index1.jpg" style="width: 100%">
 
   <div class="titreIndex">
     <h1>"La <i>critique</i> peut être désagréable, mais elle est nécessaire. <br/>
