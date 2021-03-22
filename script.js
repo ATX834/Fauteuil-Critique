@@ -30,6 +30,7 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 const cat1 = document.querySelector(".cat-1");
 const cat2 = document.querySelector(".cat-2");
 const cat3 = document.querySelector(".cat-3");
+const cat4 = document.querySelector(".cat-4");
 
 // const icon1 = document.getElementById('reviews-button1');
 // const icon2 = document.getElementById('reviews-button2');
@@ -42,6 +43,7 @@ function reviewclick(e) {
     cat1.classList.remove("hidden");
     cat2.classList.remove("hidden");
     cat3.classList.remove("hidden");
+    cat4.classList.remove("hidden");
     // icon1.classList.remove("selected");
     // icon2.classList.remove("selected");
     // icon3.classList.remove("selected");
@@ -49,6 +51,7 @@ function reviewclick(e) {
     cat1.classList.remove("hidden");
     cat2.classList.add("hidden");
     cat3.classList.add("hidden");
+    cat4.classList.add("hidden");
     // icon1.classList.add("selected");
     // icon2.classList.remove("selected");
     // icon3.classList.remove("selected");
@@ -56,6 +59,8 @@ function reviewclick(e) {
     cat1.classList.add("hidden");
     cat2.classList.remove("hidden");
     cat3.classList.add("hidden");
+    cat4.classList.add("hidden");
+
     // icon1.classList.remove("selected");
     // icon2.classList.add("selected");
     // icon3.classList.remove("selected");
@@ -63,6 +68,13 @@ function reviewclick(e) {
     cat1.classList.add("hidden");
     cat2.classList.add("hidden");
     cat3.classList.remove("hidden");
+    cat4.classList.add("hidden");
+  }
+    else if (e === "music") {
+    cat1.classList.add("hidden");
+    cat2.classList.add("hidden");
+    cat3.classList.add("hidden");
+    cat4.classList.remove("hidden");
     // icon1.classList.remove("selected");
     // icon2.classList.remove("selected");
     // icon3.classList.add("selected");
