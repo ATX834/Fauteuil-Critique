@@ -519,16 +519,20 @@ input:checked + .slider:before {
 
 .iconeReview
 {
+  background-size: 200px 300px;
   height : 300px;
   width : 200px;
   border-radius : 20px;
+  display: flex;
 }
 
 .iconeReviewAlbum
 {
+  background-size: 300px 300px;
   height : 300px;
   width : 300px;
   border-radius : 20px;
+  display: flex;
 }
 
 /*----------------------- Fin Reviews --------------*/

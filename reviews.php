@@ -37,23 +37,20 @@
     <div class="cat-1">
 
       <h1>Critiques Jeux Vidéos</h1>
-  <img class="iconeReview" src="source/Assassin's Creed Black Flag.jpg"><br />
-      <div id="card">
-        Nom: Assassin’s Creed: Black Flag<br />
-        Editeur: Ubisoft<br />
-        Date de sortie: 2013<br />
-        <p>Un monde ouvert énorme et immersif dans les caraibes de l’age d’or de la piraterie. On se régale d’aller
-          traquer les templiers sur des iles bien remplies, les combats navals sont bien fait (au détriment du parkour qui forcément est un peu laissé de côté)
-          et rafraichissent le gameplay de la série. Niveau scénario c’est par contre le début de la fin pour la série,
-          fini l’arc Desmond qu’on suit depuis le premier épisode, la couche «présent» est sans interet et votre personnage
-          Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmour. J’y ai quand même passé un très bon moment
-          et vous le recommande chaudement.</p>
+  <button onclick="getOnlyOneReview('.review1')" class="iconeReview" style="background-image: url(source/Assassins-Creed-Black-Flag.jpg)"></button><br />
+        <div id="card" class="review1 hidden">
+          Nom: Assassin’s Creed: Black Flag<br />
+          Editeur: Ubisoft<br />
+          Date de sortie: 2013<br />
+          <p>Un monde ouvert énorme et immersif dans les caraibes de l’age d’or de la piraterie. On se régale d’aller
+            traquer les templiers sur des iles bien remplies, les combats navals sont bien fait (au détriment du parkour qui forcément est un peu laissé de côté)
+            et rafraichissent le gameplay de la série. Niveau scénario c’est par contre le début de la fin pour la série,
+            fini l’arc Desmond qu’on suit depuis le premier épisode, la couche «présent» est sans interet et votre personnage
+            Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmour. J’y ai quand même passé un très bon moment
+            et vous le recommande chaudement.</p>
       </div>
-
-      <img class="iconeReview" src="source/Final Fantasy VII remake.png">
-
-      <div id="card">
-
+  <button onclick="getOnlyOneReview('.review2')" class="iconeReview review2" style="background-image: url(source/Final-Fantasy-VII-remake.png)"></button>
+      <div id="card" class="review2 hidden">
         <br />
         Nom: Final Fantasy VII: Remake<br />
         Editeur: Square Enix<br />
@@ -73,8 +70,8 @@
 
       <h1>Critiques Filmographiques</h1>
 
-        <img class="iconeReview" src="source/choc_titans.jpg">
-      <div id="card">
+  <button onclick="getOnlyOneReview('.review3')" class="iconeReview review3" style="background-image: url(source/choc_titans.jpg)"></button>
+      <div id="card" class="review3 hidden">
 <br />
         Nom : Le Choc des Titans<br />
         Réalisateur: Louis Leterrier<br />
@@ -86,9 +83,8 @@
         <p>
       </div>
 
-      <img class="iconeReview" src="source/la_mome.jpeg">
-      <div id="card">
-<br />
+  <button onclick="getOnlyOneReview('.review4')" class="iconeReview review4" style="background-image: url(source/la_mome.jpeg)"></button>
+      <div id="card" class="review4 hidden">
         Nom : La Mome<br />
         Réalisateur: Olivier Dahan<br />
         Date de sortie : 2007<br />
@@ -97,9 +93,9 @@
         Bon film un peu déprimant.
         <p>
       </div>
-        <img class="iconeReview" src="source/lucy.jpg">
-      <div id="card">
-<br />
+        <button onclick="getOnlyOneReview('.review5')" class="iconeReview review5" style="background-image: url(source/lucy.jpg)"></button>
+      <div id="card" class="review5 hidden">
+        <br />
         Nom : Lucy<br />
         Réalisateur: Luc Besson<br />
         Date de sortie : 2014<br />
@@ -110,8 +106,9 @@
         Nul de chez nul, à éviter à tout prix.
         <p>
       </div>
-      <img class="iconeReview" src="source/de-l-autre-cote-du-periph.jpeg"><br />
-      <div id="card">
+      <button onclick="getOnlyOneReview('.review6')" class="iconeReview review6" style="background-image: url(source/de-l-autre-cote-du-periph.jpeg)"></button>
+      <br />
+      <div id="card" class="review6 hidden">
         Nom : De l’Autre Coté du Périph<br />
         Réalisateur: David Charhon<br />
         Date de sortie : 2012<br />
@@ -127,8 +124,9 @@
     <div class="cat-3">
 
       <h1>Critiques Littéraires</h1>
-      <img class="iconeReview" src="source/obelix_compagnie.jpg"><br />
-      <div id="card">
+      <button onclick="getOnlyOneReview('.review7')" class="iconeReview  review7" style="background-image: url(source/obelix_compagnie.jpg)"></button>
+      <br />
+      <div id="card" class="review7 hidden">
         Nom: Obélix et Compagnie<br />
         Auteur: René Goscinny et Albert Uderzo<br />
         Date de sortie: 1976<br />
@@ -137,9 +135,10 @@
           par travailler pour un Obelix perverti par l’argent et isolé de ses amis Asterix et Idefix et des plaisir simples de la chasse et la rigolade
           entre copains. Une belle histoire et une jolie morale anti-capitaliste qui en font pour moi undes meilleurs albums de la collection Asterix.
         </p>
-      </div>
-      <img class="iconeReview" src="source/Décadence.jpg"><br />
-      <div id="card">
+  </div>
+      <button onclick="getOnlyOneReview('.review8')" class="iconeReview  review8" style="background-image: url(source/Décadence.jpg)"></button>
+      <br />
+      <div id="card" class="review8 hidden">
         Nom: Décadence<br />
         Auteur: Michel Onfray<br />
         Date de sortie: 2017<br />
@@ -152,8 +151,9 @@
         travail de fond sur un sujet passionant.
         </p>
       </div>
-      <img class="iconeReview" src="source/Samarcande.jpg"><br />
-      <div id="card">
+      <button onclick="getOnlyOneReview('.review9')" class="iconeReview  review9" style="background-image: url(source/Samarcande.jpg)"></button>
+      <br />
+      <div id="card" class="review9 hidden">
         Nom: Samarcande<br />
         Auteur: Amin Maalouf<br />
         Date de sortie: 2017<br />
@@ -170,8 +170,9 @@
         <div class="cat-4">
 
       <h1>Critiques Musicales</h1>
-      <img class="iconeReviewAlbum" src="source/white-fence.jpg"><br />
-      <div id="card">
+        <button onclick="getOnlyOneReview('.review10')" class="iconeReviewAlbum review10" style="background-image: url(source/white-fence.jpg)"></button>
+      <br />
+      <div id="card" class="review10 hidden">
         Nom: For The Recently Found Innocent<br />
         Auteur: White Fence<br />
         Date de sortie: 2014<br />
@@ -183,8 +184,9 @@
         particulierement Is Growing Faith.
         </p>
       </div>
-      <img class="iconeReviewAlbum" src="source/the-harder-they-come.jpg"><br />
-      <div id="card">
+      <button onclick="getOnlyOneReview('.review11')" class="iconeReviewAlbum review11" style="background-image: url(source/the-harder-they-come.jpg)"></button>
+      <br />
+      <div id="card" class="review11 hidden">
         Nom: The Harder They Come <br />
         Auteur: Jimmy Cliff, The Maytals, Desmond Dekker, The Melodians<br />
         Date de sortie: 1972<br />
@@ -195,8 +197,9 @@
         Rocksteady et au early ska de cette grande époque du raggae.
         </p>
       </div>
-      <img class="iconeReviewAlbum" src="source/thdafreak.jpeg"><br />
-      <div id="card">
+      <button onclick="getOnlyOneReview('.review12')" class="iconeReviewAlbum review12" style="background-image: url(source/thdafreak.jpeg)"></button>
+      <br />
+      <div id="card" class="review12 hidden">
         Nom: Party Flub <br />
         Auteur: TH da Freak & Friends<br />
         Date de sortie: 2021<br />

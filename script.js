@@ -87,52 +87,21 @@ function reviewclick(e) {
 
 /* ---------------------- Reviews clicks ---------------------*/
 /* ---------------- Apparition review ---------------------- */
-function discoverReview(e) {
-  if (e === "all") {
-    cat1.classList.remove("hidden");
-    cat2.classList.remove("hidden");
-    cat3.classList.remove("hidden");
-    cat4.classList.remove("hidden");
-    // icon1.classList.remove("selected");
-    // icon2.classList.remove("selected");
-    // icon3.classList.remove("selected");
-  } else if (e === "videogame") {
-    cat1.classList.remove("hidden");
-    cat2.classList.add("hidden");
-    cat3.classList.add("hidden");
-    cat4.classList.add("hidden");
-    // icon1.classList.add("selected");
-    // icon2.classList.remove("selected");
-    // icon3.classList.remove("selected");
-  } else if (e === "film") {
-    cat1.classList.add("hidden");
-    cat2.classList.remove("hidden");
-    cat3.classList.add("hidden");
-    cat4.classList.add("hidden");
 
-    // icon1.classList.remove("selected");
-    // icon2.classList.add("selected");
-    // icon3.classList.remove("selected");
-  } else if (e === "book") {
-    cat1.classList.add("hidden");
-    cat2.classList.add("hidden");
-    cat3.classList.remove("hidden");
-    cat4.classList.add("hidden");
-  }
-    else if (e === "music") {
-    cat1.classList.add("hidden");
-    cat2.classList.add("hidden");
-    cat3.classList.add("hidden");
-    cat4.classList.remove("hidden");
-    // icon1.classList.remove("selected");
-    // icon2.classList.remove("selected");
-    // icon3.classList.add("selected");
-  } else {
-    cat1.classList.add("hidden");
-    cat2.classList.add("hidden");
-    cat3.classList.add("hidden");
-  }
+function getOnlyOneReview(x)
+{
+
+        const chosenReview = document.querySelector(x);
+        if(chosenReview.classList[1] === "hidden")
+        {
+          chosenReview.classList.remove("hidden");
+        }
+        else
+        {
+          chosenReview.classList.add("hidden");
+        }
 }
+
 /* ---------------- Apparition review ---------------------- */
 /* ---------------------- Burger menu ------------------------*/
 
