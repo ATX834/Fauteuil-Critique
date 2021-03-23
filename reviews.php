@@ -37,9 +37,8 @@
     <div class="cat-1">
 
       <h1>Critiques Jeux Vidéos</h1>
+  <img class="iconeReview" src="source/Assassin's Creed Black Flag.jpg"><br />
       <div id="card">
-
-        <img src="source/black_flag.jpeg"><br />
         Nom: Assassin’s Creed: Black Flag<br />
         Editeur: Ubisoft<br />
         Date de sortie: 2013<br />
@@ -51,19 +50,21 @@
           et vous le recommande chaudement.</p>
       </div>
 
+      <img class="iconeReview" src="source/Final Fantasy VII remake.png">
+
       <div id="card">
 
-        <img src="source/final_fantasy.jpeg"><br />
+        <br />
         Nom: Final Fantasy VII: Remake<br />
         Editeur: Square Enix<br />
         Date de sortie: 2020<br />
-        <p>Un remake de la première partie du jeu culte sorti en 1997 qui se concentre sur la partie Midgar avec un peu de 
+        <p>Un remake de la première partie du jeu culte sorti en 1997 qui se concentre sur la partie Midgar avec un peu de
          réécriture scénaristique par rapport au premier qui permet de creuser les rapports entre les personnages et suciter
-         de l’interet pour la suite. Le plaisir de ce balader dans les taudis ou le Wall Market est indéniable, les musiques sont 
-         superbement réorchestrées et nos héros (qui ont désormais une voix et des expressions faciales) sont toujours aussi attachants. 
-         Le gameplay est un hybride entre action-RPG et système de tour à tour comme sur l’original. Les déplacements sont assez lents 
-         et la promesse de liberté dans Midgar n’est pas vraiment tenue tant les niveau sont finalement des suites de couloirs avec 
-         assez peu d’interraction. Bon jeu quand même pour les nostalgiques qui se termine assez rapidement et nous donne envie de 
+         de l’interet pour la suite. Le plaisir de ce balader dans les taudis ou le Wall Market est indéniable, les musiques sont
+         superbement réorchestrées et nos héros (qui ont désormais une voix et des expressions faciales) sont toujours aussi attachants.
+         Le gameplay est un hybride entre action-RPG et système de tour à tour comme sur l’original. Les déplacements sont assez lents
+         et la promesse de liberté dans Midgar n’est pas vraiment tenue tant les niveau sont finalement des suites de couloirs avec
+         assez peu d’interraction. Bon jeu quand même pour les nostalgiques qui se termine assez rapidement et nous donne envie de
          voir la suite.</p>
       </div>
     </div>
@@ -71,8 +72,10 @@
     <div class="cat-2">
 
       <h1>Critiques Filmographiques</h1>
+
+        <img class="iconeReview" src="source/choc_titans.jpg">
       <div id="card">
-        <img src="source/choc_titans.jpg"><br />
+<br />
         Nom : Le Choc des Titans<br />
         Réalisateur: Louis Leterrier<br />
         Date de sortie : 2010<br />
@@ -82,36 +85,39 @@
           caricaturaux mais dans l’ensemble un bon diversement pour en prendre plein les yeux sans trop se prendre la tête, j’ai bien aimé.
         <p>
       </div>
+
+      <img class="iconeReview" src="source/la_mome.jpeg">
       <div id="card">
-        <img src="source/la_mome.jpg"><br />
+<br />
         Nom : La Mome<br />
         Réalisateur: Olivier Dahan<br />
         Date de sortie : 2007<br />
-        <p>J’ai beaucoup aimé l’ambiance et les décors et Marion Cotillard joue très bien, même si elle est particulièrement 
-        énervante lors de la scène où elle apprend la mort de Marcel Cerdan et hurle “MARCEEEEEEEEL” dans le hall de chez elle. 
+        <p>J’ai beaucoup aimé l’ambiance et les décors et Marion Cotillard joue très bien, même si elle est particulièrement
+        énervante lors de la scène où elle apprend la mort de Marcel Cerdan et hurle “MARCEEEEEEEEL” dans le hall de chez elle.
         Bon film un peu déprimant.
         <p>
       </div>
+        <img class="iconeReview" src="source/lucy.jpg">
       <div id="card">
-        <img src="source/choc_titans.jpg"><br />
+<br />
         Nom : Lucy<br />
         Réalisateur: Luc Besson<br />
         Date de sortie : 2014<br />
-        <p>Peut-être l’un des pires films que j’ai jamais vu. Gros casting, Morgan Freeman joue le type plein de sagesse comme d’habitude, 
-        Scarlett Johansson est magnifique et le démarrage est plutôt sympa puis à partir de la scène ou elle se réveille en prison et 
-        commence à découvrir ses pouvoirs tout part en sucette avec des rebondissements toujours plus imporbables et mal amenés. 
-        Et puis ce final en apothéose (spoiler : à la fin Scarlett devient tellement intelligente qu’elle se transforme en clef USB ). 
+        <p>Peut-être l’un des pires films que j’ai jamais vu. Gros casting, Morgan Freeman joue le type plein de sagesse comme d’habitude,
+        Scarlett Johansson est magnifique et le démarrage est plutôt sympa puis à partir de la scène ou elle se réveille en prison et
+        commence à découvrir ses pouvoirs tout part en sucette avec des rebondissements toujours plus imporbables et mal amenés.
+        Et puis ce final en apothéose (spoiler : à la fin Scarlett devient tellement intelligente qu’elle se transforme en clef USB ).
         Nul de chez nul, à éviter à tout prix.
         <p>
       </div>
+      <img class="iconeReview" src="source/de-l-autre-cote-du-periph.jpeg"><br />
       <div id="card">
-        <img src="source/choc_titans.jpg"><br />
         Nom : De l’Autre Coté du Périph<br />
         Réalisateur: David Charhon<br />
         Date de sortie : 2012<br />
-        <p>C’est l’heure de la comédie policière à la française. Le sympathique Omar Sy, ici dans le role du flic banlieusard donne la réplique à Laurent Laffite lui même dans le 
+        <p>C’est l’heure de la comédie policière à la française. Le sympathique Omar Sy, ici dans le role du flic banlieusard donne la réplique à Laurent Laffite lui même dans le
         role du commissaire de la PJ en mode gros con raciste et obsédé qui forcément se fait victimiser quand il débarque… de l’autre coté du périph.
-        En résulte une comédie très légère, les vannes sont assez attendues et la dynamique entre les deux héros pas forcément orignale 
+        En résulte une comédie très légère, les vannes sont assez attendues et la dynamique entre les deux héros pas forcément orignale
         (quoi qu’au moins on échape à la très galvaudée dynamique du jeune flic/vieux flic) mais assez sympathique et divertissante.
         <p>
       </div>
@@ -121,8 +127,8 @@
     <div class="cat-3">
 
       <h1>Critiques Littéraires</h1>
+      <img class="iconeReview" src="source/obelix_compagnie.jpg"><br />
       <div id="card">
-        <img src="source/obelix_compagnie.jpg"><br />
         Nom: Obélix et Compagnie<br />
         Auteur: René Goscinny et Albert Uderzo<br />
         Date de sortie: 1976<br />
@@ -132,31 +138,31 @@
           entre copains. Une belle histoire et une jolie morale anti-capitaliste qui en font pour moi undes meilleurs albums de la collection Asterix.
         </p>
       </div>
+      <img class="iconeReview" src="source/Décadence.jpg"><br />
       <div id="card">
-        <img src="source/obelix_compagnie.jpg"><br />
         Nom: Décadence<br />
         Auteur: Michel Onfray<br />
         Date de sortie: 2017<br />
-        <p>Michel Onfray continue sa lente descente aux enfers de la boulimie littéraire 
-        (plus de 100 livres à son actif) et des polémiques pour plateaux TV entamée depuis la fin de sa colossale et géniale série 
-        sur Contre-histoire de la Philosophie. Dans ce gros pavé (650 pages) le Michel nous radotte inlassablement ses sujets préférés 
-        (les mensonges de l’église, les mensonges de l’histoire, le nihilisme moderne, la « montée » de l’islam..). En résulte un livre 
-        largement dispensables pour ceux qui l’ont déjà entendu exprimer son sombre avis sur la question dans les médias 
-        (où il n’est pourtant « jamais invité »..), préférez-y la Contre-histoire de la philosophie qui reste son seul vrai 
+        <p>Michel Onfray continue sa lente descente aux enfers de la boulimie littéraire
+        (plus de 100 livres à son actif) et des polémiques pour plateaux TV entamée depuis la fin de sa colossale et géniale série
+        sur Contre-histoire de la Philosophie. Dans ce gros pavé (650 pages) le Michel nous radotte inlassablement ses sujets préférés
+        (les mensonges de l’église, les mensonges de l’histoire, le nihilisme moderne, la « montée » de l’islam..). En résulte un livre
+        largement dispensables pour ceux qui l’ont déjà entendu exprimer son sombre avis sur la question dans les médias
+        (où il n’est pourtant « jamais invité »..), préférez-y la Contre-histoire de la philosophie qui reste son seul vrai
         travail de fond sur un sujet passionant.
         </p>
       </div>
+      <img class="iconeReview" src="source/Samarcande.jpg"><br />
       <div id="card">
-        <img src="source/obelix_compagnie.jpg"><br />
         Nom: Samarcande<br />
         Auteur: Amin Maalouf<br />
         Date de sortie: 2017<br />
-        <p>Un roman historique en deux parties, la première dans la Perse des années 1000 et la seconde au début de siècle dernier. On 
-        y suit l’histoire de Omar Khayyam, mathématicien et érudit libertaire qui écrit des courtes odes à l’amour au sexe et à l’alcool 
+        <p>Un roman historique en deux parties, la première dans la Perse des années 1000 et la seconde au début de siècle dernier. On
+        y suit l’histoire de Omar Khayyam, mathématicien et érudit libertaire qui écrit des courtes odes à l’amour au sexe et à l’alcool
         dans son gros manuscrit puis dès siècles plus tard la recherche de ce manuscrit par nos contemporains. Les amateurs d’Assassin’s
-         Creed se feront une joie de croiser les nazirites d’Alamut, la “vraie” secte des assassins et Hassan-I-Sabbah (que l’on croise 
-         dans le premier, c’est le vieux qui nous file des contrats d’assassinat et qui fini par nous trahir, comme tout le monde dans 
-         les jeux de la franchise) et les autres se régaleront de ce récit de la vieille Perse et de la révolution iranienne, immersion 
+         Creed se feront une joie de croiser les nazirites d’Alamut, la “vraie” secte des assassins et Hassan-I-Sabbah (que l’on croise
+         dans le premier, c’est le vieux qui nous file des contrats d’assassinat et qui fini par nous trahir, comme tout le monde dans
+         les jeux de la franchise) et les autres se régaleront de ce récit de la vieille Perse et de la révolution iranienne, immersion
          garantie.
         </p>
       </div>
@@ -164,42 +170,42 @@
         <div class="cat-4">
 
       <h1>Critiques Musicales</h1>
+      <img class="iconeReviewAlbum" src="source/white-fence.jpg"><br />
       <div id="card">
-        <img src="source/obelix_compagnie.jpg"><br />
         Nom: For The Recently Found Innocent<br />
         Auteur: White Fence<br />
         Date de sortie: 2014<br />
-        <p>Entre deux collaborations avec son ami Ty Seagall, Tim Presley (Darker My Love) continue son projet solo White 
-        Fence avec un nouveau disque moins lo-fi que les précédents (au revoir le 4 pistes à cassettes, bonjour le vrai studio 
-        d’enregistrement) mais dans lequel les habitués retrouveront les marqueurs du style Presley: voix légèrement fragile, melodies 
-        accrocheuses (le single “Sandra”), et arrangements minimalistes et guitares joliment déconstruites. Le disque constitue une entrée 
-        en matière accessible pour découvrir le personnage et si vous l’aimez je ne peux que vous recommander d’écouter ses autres albums, 
+        <p>Entre deux collaborations avec son ami Ty Seagall, Tim Presley (Darker My Love) continue son projet solo White
+        Fence avec un nouveau disque moins lo-fi que les précédents (au revoir le 4 pistes à cassettes, bonjour le vrai studio
+        d’enregistrement) mais dans lequel les habitués retrouveront les marqueurs du style Presley: voix légèrement fragile, melodies
+        accrocheuses (le single “Sandra”), et arrangements minimalistes et guitares joliment déconstruites. Le disque constitue une entrée
+        en matière accessible pour découvrir le personnage et si vous l’aimez je ne peux que vous recommander d’écouter ses autres albums,
         particulierement Is Growing Faith.
         </p>
       </div>
+      <img class="iconeReviewAlbum" src="source/the-harder-they-come.jpg"><br />
       <div id="card">
-        <img src="source/obelix_compagnie.jpg"><br />
         Nom: The Harder They Come <br />
         Auteur: Jimmy Cliff, The Maytals, Desmond Dekker, The Melodians<br />
         Date de sortie: 1972<br />
-        <p>Bande originale du film jamaicain du même nom (sorti en France sous le titre “Tout, tout de suite”) décrivant le 
-        quotidien d’un jeune chanteur de reggae (inteprété par Jimmy Cliff en dans le ghetto Trenchtown de Kingston. L’OST est à 
-        l’image des compils Trojan de la même époque une compilation des artistes à succès du fameux Studio One et tous les titres font 
-        mouche, on y retrouve aussi le tube Many Rivers To Cross de Jimmy Cliff enregistré deux ans plus tôt. Une belle introduction au 
+        <p>Bande originale du film jamaicain du même nom (sorti en France sous le titre “Tout, tout de suite”) décrivant le
+        quotidien d’un jeune chanteur de reggae (inteprété par Jimmy Cliff en dans le ghetto Trenchtown de Kingston. L’OST est à
+        l’image des compils Trojan de la même époque une compilation des artistes à succès du fameux Studio One et tous les titres font
+        mouche, on y retrouve aussi le tube Many Rivers To Cross de Jimmy Cliff enregistré deux ans plus tôt. Une belle introduction au
         Rocksteady et au early ska de cette grande époque du raggae.
         </p>
       </div>
+      <img class="iconeReviewAlbum" src="source/thdafreak.jpeg"><br />
       <div id="card">
-        <img src="source/obelix_compagnie.jpg"><br />
         Nom: Party Flub <br />
         Auteur: TH da Freak & Friends<br />
         Date de sortie: 2021<br />
-        <p>Le prolifique bordelais revient avec un album collaboratif incluant lui même, son frère Siz et d’autres artistes du 
-        collectif Flippin Freaks. On y retrouve le même coolisme naturel et la même esthétique garage axé 90’s que sur ses disques 
-        précédents mais l’aspect collaboratif du disque en font un disque (ou plutôt une cassette puisque c’est le seul format physique 
+        <p>Le prolifique bordelais revient avec un album collaboratif incluant lui même, son frère Siz et d’autres artistes du
+        collectif Flippin Freaks. On y retrouve le même coolisme naturel et la même esthétique garage axé 90’s que sur ses disques
+        précédents mais l’aspect collaboratif du disque en font un disque (ou plutôt une cassette puisque c’est le seul format physique
         de cet album) finalement assez varié au niveau de l’écriture. On y découvre des membres du collectif moins médiatisés et qui g
-        agnent largement à être connus (Twingo Reverse ou Pikto). Un de mes disques de rock garage français préférés dont 
-        le seul vrai défaut est de ne pas dépasser la demi heure de musique.    
+        agnent largement à être connus (Twingo Reverse ou Pikto). Un de mes disques de rock garage français préférés dont
+        le seul vrai défaut est de ne pas dépasser la demi heure de musique.
         </p>
       </div>
      </div>
