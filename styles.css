@@ -513,6 +513,20 @@ input:checked + .slider:before {
   background-color: black;
 }
 
+.iconeReview
+{
+  height : 300px;
+  width : 200px;
+  border-radius : 20px;
+}
+
+.iconeReviewAlbum
+{
+  height : 300px;
+  width : 300px;
+  border-radius : 20px;
+}
+
 /*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
 
