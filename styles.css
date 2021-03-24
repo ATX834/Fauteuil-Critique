@@ -569,6 +569,8 @@ input:checked + .slider:before {
   background: var(--body-font);
   animation: appear 0.2s linear;
   width: 50vh;
+  border-radius : 20px;
+  z-index: 11;
 }
 
 @keyframes appear {
@@ -578,6 +580,21 @@ input:checked + .slider:before {
   to {
     opacity: 100;
   }
+}
+
+.underlay {
+  display: none;
+}
+
+.underlay-visible{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
 
 .hidden {
