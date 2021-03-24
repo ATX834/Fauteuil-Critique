@@ -1,25 +1,12 @@
 <nav>
     <div class="navbar-main">
+
         <div class="burger">
             <div id="burger-icon">
                 <button class="button-burger" onclick="openMenu(this)">
                     <img id='burger-menu' src="source/burger-menu-icon.jpg" alt="burger-menu">
                 </button>
             </div>
-            <!-- <div class="burger-click">
-            <ul class="burger-list">
-                <li>
-                    <a href="index.php"> Index
-                    </a>
-                </li>
-                <li><a href="reviews.php"> Reviews
-                    </a></li>
-                <li><a href="aboutme.php"> A propos
-                    </a></li>
-                <li><a href="form.php"> Contact
-                    </a></li>
-            </ul>
-        </div> -->
         </div>
 
         <div class="logo-mobile">
@@ -32,7 +19,6 @@
             <div class="home">
                 <a href="/index.php">
                     <h1>Home</h1>
-                    <!-- <img id='logo' src="source/home-icon.png" alt="home-icon" width="50px" height="50px"> -->
                 </a>
             </div>
             <div class="review">
@@ -45,7 +31,6 @@
                     <h1>A propos</h1>
                 </a>
             </div>
-
             <div class="form">
                 <a href="/form.php">
                     <h1>Contact</h1>
@@ -58,9 +43,14 @@
                 <input type="checkbox" id="checkbox" />
                 <div class="slider round"></div>
             </label>
-            <img src="source/disco-ball2.png" alt="disco-ball" width="80px" height="80px">
+            <!-- <img src="source/disco-ball.png" alt="disco-ball"> -->
+            <div>
+                <p id="N-mode">Night</p>
+                <p>mode</p>
+            </div>
         </div>
     </div>
+    
     <div class="navbar-list">
         <ul>
             <li>
