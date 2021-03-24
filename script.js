@@ -34,10 +34,10 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 /* ---------------------- Reviews clicks ---------------------*/
 
 function reviewclick(e) {
-const cat1 = document.querySelector(".cat-1");
-const cat2 = document.querySelector(".cat-2");
-const cat3 = document.querySelector(".cat-3");
-const cat4 = document.querySelector(".cat-4");
+  const cat1 = document.querySelector(".cat-1");
+  const cat2 = document.querySelector(".cat-2");
+  const cat3 = document.querySelector(".cat-3");
+  const cat4 = document.querySelector(".cat-4");
 
   if (e === "all") {
     cat1.classList.remove("hidden");
@@ -70,7 +70,7 @@ const cat4 = document.querySelector(".cat-4");
     cat3.classList.remove("hidden");
     cat4.classList.add("hidden");
   }
-    else if (e === "music") {
+  else if (e === "music") {
     cat1.classList.add("hidden");
     cat2.classList.add("hidden");
     cat3.classList.add("hidden");
@@ -87,50 +87,55 @@ const cat4 = document.querySelector(".cat-4");
 }
 
 /* ---------------------- Reviews clicks ---------------------*/
-  
-/* ---------------- Apparition review ---------------------- */
-
-function getOnlyOneReview(x)
-{
-
-        const chosenReview = document.querySelector(x);
-        if(chosenReview.classList[1] === "hidden")
-        {
-          chosenReview.classList.remove("hidden");
-        }
-        else
-        {
-          chosenReview.classList.add("hidden");
-        }
-}
 
 /* ---------------- Apparition review ---------------------- */
-  
 
-/* ---------------------- Burger menu ------------------------*/
-
-
-function toggleMenu() {
-  document.querySelector(".navbar-list").classList.toggle('navbar-open');
+function toggleUnderlay() {
+  document.querySelector(".underlay").classList.toggle('underlay-visible');
 }
-document.querySelector('.burger').addEventListener('click', toggleMenu);
 
-/* ---------------------- Burger menu ------------------------*/
-/* ---------------------- Transitions ------------------------*/
-function init() {
-  document.querySelectorAll('.select-review').forEach(element => {
-    element.addEventListener('click', function (event) {
-      reviewclick(event.target.dataset.category);
+function toggleOneReview(selector) {
+
+  const chosenReview = document.querySelector(selector);
+
+  if (chosenReview.classList[1] === "hidden") {
+    chosenReview.classList.remove("hidden");
+    toggleUnderlay()
+  }
+  else {
+    chosenReview.classList.add("hidden");
+    toggleUnderlay()
+  }
+}
+
+
+  /* ---------------- Apparition review ---------------------- */
+
+
+  /* ---------------------- Burger menu ------------------------*/
+
+
+  function toggleMenu() {
+    document.querySelector(".navbar-list").classList.toggle('navbar-open');
+  }
+  document.querySelector('.burger').addEventListener('click', toggleMenu);
+
+  /* ---------------------- Burger menu ------------------------*/
+  /* ---------------------- Transitions ------------------------*/
+  function init() {
+    document.querySelectorAll('.select-review').forEach(element => {
+      element.addEventListener('click', function (event) {
+        reviewclick(event.target.dataset.category);
+      })
     })
+  }
+
+  init();
+
+  const swup = new Swup();
+  swup.on('contentReplaced', init);
+  swup.on('transitionStart', function () {
+    document.querySelector(".navbar-list").classList.remove('navbar-open');
   })
-}
-
-init();
-
-const swup = new Swup();
-swup.on('contentReplaced', init);
-swup.on('transitionStart', function() {
-  document.querySelector(".navbar-list").classList.remove('navbar-open');
-})
 
 /* ---------------------- Transitions ------------------------*/
