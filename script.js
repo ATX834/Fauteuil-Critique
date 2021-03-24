@@ -33,6 +33,7 @@ function reviewclick(e) {
 const cat1 = document.querySelector(".cat-1");
 const cat2 = document.querySelector(".cat-2");
 const cat3 = document.querySelector(".cat-3");
+const cat4 = document.querySelector(".cat-4");
 
   if (e === "all") {
     cat1.classList.remove("hidden");
