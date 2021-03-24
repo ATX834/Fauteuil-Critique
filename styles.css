@@ -10,6 +10,7 @@
   --text-color: #2F435E;
   --text-font: 'Roboto', sans-serif;    
   --body-font: #ECECEC /*#fefee2*/;
+  --buttons-reviews: #516f94;
   --fieldset-color: #44566C;
 }
 
@@ -22,6 +23,7 @@
   --text-font: "Ibarra Real Nova", serif;
   --body-image: url(source/barre_disco.jpg);
   --fieldset-color: #000000;
+  --buttons-reviews: #fe277e;
 }
 
 /* ---------------- Fin Root --------------------------- */
@@ -444,7 +446,9 @@ input:checked + .slider:before {
 }
 
 .reviews-filter button {
-  background-color: #fefefe;
+  background-color: var(--buttons-reviews);
+  color: var(--text-form);
+  /* font-family:  var(--title-font); */
   border-radius: 10px;
   list-style-type: none;
   text-decoration-style: none;
@@ -499,7 +503,7 @@ input:checked + .slider:before {
   border: none;
   width: 100%;
   height: 100%;
-  background-color: #fefefe;
+  background-color: var(--buttons-reviews);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50px;

@@ -16,18 +16,18 @@
     <ul class="reviews-logo">
 
       <li>
-        <button id="reviews-button1" class="select-review" data-category="videogame" type="image" style="background-image: url(source/logo_manette.png);"></button>
+        <button id="reviews-button1" class="select-review" data-category="videogame" type="image" style="background-image: url(source/manette.png);"></button>
       </li>
 
       <li>
-        <button id="reviews-button2" class="select-review" data-category="film" type="image" style="background-image: url(source/logo_film.png);"></button>
+        <button id="reviews-button2" class="select-review" data-category="film" type="image" style="background-image: url(source/films.png);"></button>
       </li>
 
       <li>
-        <button id="reviews-button3" class="select-review" data-category="book" type="image" style="background-image: url(source/logo_livre1.png);"></button>
+        <button id="reviews-button3" class="select-review" data-category="book" type="image" style="background-image: url(source/livre.png);"></button>
       </li>
       <li>
-        <button id="reviews-button4" class="select-review" data-category="music" type="image" style="background-image: url(source/logo_guitare.png);"></button>
+        <button id="reviews-button4" class="select-review" data-category="music" type="image" style="background-image: url(source/guitare2.png);"></button>
       </li>
     </ul>
   </div>
