@@ -769,22 +769,19 @@ textarea {
   width: 20px;
   align-items: right;
   margin-left: 82%;
-  opacity: 1;
 }
 #scroll-to-top {
   height: 25px;
-  width: 2px;
   bottom: 30px;
   right: 30px;
   cursor: pointer;
   z-index: 100;
   transform: translateY(100px);
-  transition: all .5s ease
-}
+  transition: all .5s ease;
   width: 40px;
-
-  
+  opacity: 0;
 }
+
 .showBtn {
   opacity: 1;
   transform: translateY(0);
