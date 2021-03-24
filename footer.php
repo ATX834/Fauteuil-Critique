@@ -11,9 +11,7 @@
       <a href="https://www.facebook.com"><img class="socialNetworkLogo" src="source/facebook.png" alt="Bouton Facebook"></a>
       <a href="https://www.instagram.com"><img class="socialNetworkLogo" src="source/instagram.png" alt="Bouton Instagram"></a>
     </div>
-    <div>
-      <a href="form.php">Contactez moi</a>
-</div>
+
   </footer>
   </body>
   <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
