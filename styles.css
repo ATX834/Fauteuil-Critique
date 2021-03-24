@@ -287,6 +287,9 @@ input:checked + .slider:before {
   .menu {
     display: none;
   }
+  /* .titre-site{
+    display:none;
+  } */
 }
 
 @media screen and (min-width: 801px) {
@@ -295,9 +298,16 @@ input:checked + .slider:before {
     flex: 2;
     justify-content: space-around;
     align-items: center;
-    max-width: 65%;
+    max-width: 55%;
   }
-}
+  /* .titre-site {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    max-width: 55%;
+    font-size: 0.8rem;
+    color: var(--body-font);
+  } */
 
 .menu h1 {
   padding: 5px 14px 10px 14px;

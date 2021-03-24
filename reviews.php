@@ -27,7 +27,7 @@
         <button id="reviews-button3" class="select-review" data-category="book" type="image" style="background-image: url(source/logo_livre1.png);"></button>
       </li>
       <li>
-        <button id="reviews-button4" class="select-review" data-category="music" type="image" style="background-image: url(source/logo-Musique.png);"></button>
+        <button id="reviews-button4" class="select-review" data-category="music" type="image" style="background-image: url(source/logo_guitare.png);"></button>
       </li>
     </ul>
   </div>

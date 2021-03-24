@@ -13,7 +13,12 @@
             <a href="index.php">
                 <img src="source/logo1.png" alt="logo">
             </a>
-        </div>
+        <!-- </div>
+        <div class="titre-site">
+            <a href="index.php">
+                <h1>Fauteuil-Critiques.com</h1>
+            </a>
+        </div> -->
 
         <div class="menu">
             <div class="home">
