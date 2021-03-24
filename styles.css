@@ -86,7 +86,6 @@ nav {
   padding: 0 1.5%;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 5px 5px rgb(172, 172, 172);
 }
 
 a {
@@ -158,6 +157,7 @@ a {
   border: none;
   font-size: 0;
   cursor: pointer;
+  outline: none;
 }
 
 #burger-menu {
@@ -195,7 +195,6 @@ a {
   /* width: 80px; */
   padding: 10%;
 }
-
 
 .colormode {
   display: flex;
@@ -609,7 +608,7 @@ input:checked + .slider:before {
 #contactForm {
   display: flex;
   justify-content: center;
-  margin: 10% 0;
+  margin: 15vh 0;
 }
 
 fieldset {
