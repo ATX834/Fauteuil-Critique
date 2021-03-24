@@ -16,15 +16,15 @@
     <ul class="reviews-logo">
 
       <li>
-        <button id="reviews-button1" class="select-review" data-category="videogame" type="image" style="background-image: url(source/logo-jeuxvideo.png);"></button>
+        <button id="reviews-button1" class="select-review" data-category="videogame" type="image" style="background-image: url(source/logo_manette.png);"></button>
       </li>
 
       <li>
-        <button id="reviews-button2" class="select-review" data-category="film" type="image" style="background-image: url(source/logo-Film.png);"></button>
+        <button id="reviews-button2" class="select-review" data-category="film" type="image" style="background-image: url(source/logo_film.png);"></button>
       </li>
 
       <li>
-        <button id="reviews-button3" class="select-review" data-category="book" type="image" style="background-image: url(source/logo-Musique.png);"></button>
+        <button id="reviews-button3" class="select-review" data-category="book" type="image" style="background-image: url(source/logo_livre1.png);"></button>
       </li>
       <li>
         <button id="reviews-button4" class="select-review" data-category="music" type="image" style="background-image: url(source/logo-Musique.png);"></button>
@@ -41,7 +41,7 @@
       <h1>Critiques Jeux Vidéos</h1>
   <button onclick="getOnlyOneReview('.review1')" class="iconeReview" style="background-image: url(source/Assassins-Creed-Black-Flag.jpg)"></button><br />
         <div id="card" class="review1 hidden">
-          Nom: Assassin’s Creed: Black Flag<br />
+          <h3>Assassin’s Creed: Black Flag</h3><br />
           Editeur: Ubisoft<br />
           Date de sortie: 2013<br />
           <p>Un monde ouvert énorme et immersif dans les caraibes de l’age d’or de la piraterie. On se régale d’aller
