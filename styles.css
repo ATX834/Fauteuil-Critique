@@ -1,15 +1,16 @@
 /* ------------------ Root ------------------------ */
 
 :root {
-  --navbar-color: /*#f5fef5*/ #c6d166;
-  --footer-color: #0f1b07;
-  --separator-color: #0f1b07;
+  --navbar-color: /*#f5fef5*/ #44566C;
+  --footer-color: #2F435E;
+  --separator-color: #ECECEC;
   --title-font: "Jacques Francois", serif;
-  --title-color: #0f1b07;
-  --text-color: black;
+  --title-color: #2F435E;
+  --text-form: #ECECEC;
+  --text-color: #2F435E;
   --text-font: "Ibarra Real Nova", serif;
-  --body-font: #fefefe /*#fefee2*/;
-  --fieldset-color: #c6d166;
+  --body-font: #ECECEC /*#fefee2*/;
+  --fieldset-color: #44566C;
 }
 
 [data-theme="disco"] {
@@ -89,7 +90,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: var(--title-color);
+  color: var(--text-form);
 }
 
 @media screen and (min-width: 801px) {
@@ -267,6 +268,7 @@ input:checked + .slider:before {
 .menu h1 {
   padding: 5px 14px 10px 14px;
   transition: 0.2s;
+  color: var(--body-font);
 }
 
 .menu h1:hover {
@@ -334,10 +336,6 @@ input:checked + .slider:before {
 
 }
 
-#GIFCHAT {
-  margin: 0 25% 0 25%;
-  padding: 0;
-}
 /*----------------------- Fin Index --------------*/
 /*----------------------- Début Reviews --------------*/
 
@@ -515,6 +513,24 @@ input:checked + .slider:before {
   background-color: black;
 }
 
+.iconeReview
+{
+  background-size: 200px 300px;
+  height : 300px;
+  width : 200px;
+  border-radius : 20px;
+  display: flex;
+}
+
+.iconeReviewAlbum
+{
+  background-size: 300px 300px;
+  height : 300px;
+  width : 300px;
+  border-radius : 20px;
+  display: flex;
+}
+
 /*----------------------- Fin Reviews --------------*/
 /* --------------------  Debut aboutme -------------------- */
 
@@ -564,12 +580,14 @@ input:checked + .slider:before {
 
 fieldset {
   text-align: center;
+  color: var(--text-form);
   margin-top: 15px;
   background-color: var(--fieldset-color);
   max-width: 500px;
   padding: 16px;
-  margin-bottom: 0px;
-  margin-left: 16px;
+  margin: auto;
+  /* margin-bottom: 0px;
+  margin-left: 16px; */
   border: 2px;
   border-radius: 10px;
   box-shadow: 0px 1px 2px #ccc;
@@ -649,7 +667,7 @@ footer {
   cursor: crosshair;
 }
 
-footer div {
+footer div a{
   margin: 30px;
   color: var(--fieldset-color);
 }
