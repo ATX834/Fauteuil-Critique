@@ -31,7 +31,6 @@
 
 body {
   font: var(--text-font) var(--text-color);
-  min-width: 500px;
   background-color: var(--body-font);
   background-image: var(--body-image);
   color: var(--text-color);
@@ -636,6 +635,12 @@ input:checked + .slider:before {
   margin: 15vh 0 5vh 0;
 }
 
+@media screen and (max-width: 800px) {
+  #contactForm {
+    display: block;
+  }
+}
+
 fieldset {
   text-align: center;
   color: var(--text-form);
@@ -647,19 +652,25 @@ fieldset {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  fieldset {
+    background-color: var(--body-font);
+    color: var(--fieldset-color);
+    padding: 0;
+  }
+}
+
 fieldset,
 fieldset img {
   border-radius: 10px;
 }
 
 .champ {
-  border: 2px #0f1b07;
   padding: 2%;
   margin: auto;
 }
 
 label {
-  margin: 0 15px 0 0px;
   display: block;
   text-align: center;
   font-family: var(--text-font);
@@ -688,11 +699,10 @@ textarea {
   width: 100%;
   height: 100%;
 }
+
 #formpicture {
-  min-width: 400px;
-  max-width: 400px;
-  width: 40%;
-  height: 40%;
+  max-width: 800px;
+  width: 60vw;
 }
 
 /*----------------------- Fin Formulaire ----------------*/
