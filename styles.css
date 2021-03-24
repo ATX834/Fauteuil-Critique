@@ -283,37 +283,39 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 800px) {
-  .menu {
-    display: none;
-  }
+.logo-titre{
+  display: flex;
+  height: 100%;
+}
+
+.titre-site {
+  font-family: 'Concert One', cursive;
+  margin-right: 10%;
+  width: 100px;
+  display: none;
+  justify-content: space-around;
+  align-items: end;
+  font-size: 0.8rem;
+  color: var(--body-font);
+}
+
+@media screen and (min-width: 801px) {
   .titre-site{
-    display:none;
+    display:flex;
   }
+}
+
+.menu {
+  display: none;
+  flex: 2;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 55%;
 }
 
 @media screen and (min-width: 801px) {
   .menu {
     display: flex;
-    flex: 2;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 55%;
-  }
-  .logo-titre{
-    display: flex;
-
-  }
-
-  .titre-site {
-    font-family: 'Concert One', cursive;
-    margin-right: 10%;
-    width: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-    font-size: 0.8rem;
-    color: var(--body-font);
   }
 }
 
