@@ -76,6 +76,7 @@ nav {
   background-color: var(--navbar-color);
   font-family: var(--title-font);
   box-shadow: 0 5px 5px rgb(172, 172, 172);
+  z-index: 10;
 }
 
 .navbar-main {
@@ -170,11 +171,11 @@ a {
 
 @media screen and (min-width: 801px) {
   .logo-mobile {
-    transition: 0.2s;
+    transition: 0.5s;
   }
-
+  
   .logo-mobile:hover {
-    transform: rotate(360deg);
+    transform: rotateY(180deg);
     transition: 1s;
     /* animation: spin 1s linear infinite; */
   }
@@ -187,6 +188,12 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo-mobile a img {
+  height: 80%;
+  /* width: 80px; */
+  padding: 10%;
 }
 
 .colormode {

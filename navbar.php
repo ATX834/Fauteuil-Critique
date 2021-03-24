@@ -24,7 +24,7 @@
 
         <div class="logo-mobile">
             <a href="index.php">
-                <img src="source/logo1.png" alt="logo" width="80px" height="100%">
+                <img src="source/logo1.png" alt="logo">
             </a>
         </div>
 
