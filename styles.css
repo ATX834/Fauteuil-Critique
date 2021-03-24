@@ -1,0 +1,675 @@
+/* ------------------ Root ------------------------ */
+
+:root {
+  --navbar-color: /*#f5fef5*/ #44566C;
+  --footer-color: #2F435E;
+  --separator-color: #ECECEC;
+  --title-font: "Jacques Francois", serif;
+  --title-color: #2F435E;
+  --text-form: #ECECEC;
+  --text-color: #2F435E;
+  --text-font: "Ibarra Real Nova", serif;
+  --body-font: #ECECEC /*#fefee2*/;
+  --fieldset-color: #44566C;
+}
+
+[data-theme="disco"] {
+  --navbar-color: linear-gradient(#47ead0, #fe277e);
+  --footer-color: linear-gradient(#47ead0, #fe277e);
+  --title-font: "Jacques Francois", serif;
+  --title-color: #f2ff43;
+  --text-color: rgb(255, 255, 255);
+  --text-font: "Ibarra Real Nova", serif;
+  --body-image: url(source/barre_disco.jpg);
+  --fieldset-color: #000000;
+}
+
+/* ---------------- Fin Root --------------------------- */
+/*----------------------- Début body --------------*/
+
+body {
+  font: var(--text-font) var(--text-color);
+  min-width: 500px;
+  background-color: var(--body-font);
+  background-image: var(--body-image);
+  color: var(--text-color);
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*----------------------- Fin body --------------*/
+/* -------------------- Content -----------------------*/
+
+content {
+  height: auto;
+  min-height: 80vh;
+  padding-top: 10vh;
+  flex: 1 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  content {
+    padding-top: 90px;
+  }
+}
+
+
+/* -------------------- Fin content ------------------- */
+/* ------------------ Debut Navbar -------------------- */
+
+nav {
+  top: 0;
+  /* height: 10vh; */
+  /* min-height: 90px; */
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  background: var(--navbar-color);
+  width: 100%;
+  background-color: var(--navbar-color);
+  font-family: var(--title-font);
+  box-shadow: 0 5px 5px rgb(172, 172, 172);
+}
+
+.navbar-main {
+  height: 10vh;
+  min-height: 90px;
+  width: 97%;
+  padding: 0 1.5%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px rgb(172, 172, 172);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-form);
+}
+
+@media screen and (min-width: 801px) {
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .burger {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#burger-icon {
+  height: 90px;
+  width: 90px;
+}
+
+.burger a {
+  display: block;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+.burger a:hover {
+  color: white;
+}
+
+.burger-click {
+  height: 200px;
+  width: 100px;
+  font-family: var(--title-font);
+  z-index: 1000;
+}
+
+.burger-list {
+  display: none;
+  background-color: var(--navbar-color);
+  box-shadow: 0px 1px 2px #ccc;
+  background-color: var(--navbar-color);
+  position: absolute;
+  width: 100px;
+  z-index: 1000;
+  list-style-type: none;
+}
+
+.burger-list li {
+  float: none;
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.burger:hover .burger-list {
+  display: block;
+}
+
+.button-burger {
+  height: 100%;
+  background: transparent;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+}
+
+#burger-menu {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-mobile {
+  justify-self: center;
+}
+
+@media screen and (min-width: 801px) {
+  .logo-mobile {
+    transition: 0.2s;
+  }
+
+  .logo-mobile:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    /* animation: spin 1s linear infinite; */
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.colormode {
+  display: flex;
+  width: 120px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.colormode label {
+  align-self: center;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 17px;
+  position: relative;
+  width: 30px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 2px;
+  content: "";
+  height: 13px;
+  left: 2px;
+  position: absolute;
+  transition: 0.4s;
+  width: 13px;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(8px);
+}
+
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .menu {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 550px;
+  }
+}
+
+.menu h1 {
+  padding: 5px 14px 10px 14px;
+  transition: 0.2s;
+  color: var(--body-font);
+}
+
+.menu h1:hover {
+  color: var(--body-font);
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+
+.navbar-list {
+  min-height: 90px;
+  height: 10vh;
+  width: 100%;
+  background-color: var(--navbar-color);
+  top: 0;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 5px 5px rgb(172, 172, 172);
+  transition: 0.5s;
+}
+
+.navbar-list ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  align-self: flex-end;
+  margin: 10px 0;
+}
+
+.navbar-list ul li {
+  padding: 10px;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.navbar-open {
+  display: flex;
+  transition: 0.8s;
+  height: 220px;
+  top: 0;
+  transition: 1s;
+}
+
+/* -------------------- Fin Navbar -------------------- */
+/*----------------------- Début Index --------------*/
+
+.contenuIndex {
+  display: inline-block;
+}
+
+.paragrapheIndex {
+  flex-direction: column;
+  margin: 0 15% 0 15%;
+  text-align: justify;
+  font-family: var(--title-font);
+}
+
+.titreIndex {
+  font-family: var(--title-font);
+  flex-direction: column;
+  margin: 0 15% 0 15%;
+  text-align: center;
+  color: var(--title-color);
+  text-shadow: 0.4em 0.4em 0.6em;
+
+}
+
+/*----------------------- Fin Index --------------*/
+/*----------------------- Début Reviews --------------*/
+
+.reviews {
+  display: flex;
+  list-style-type: none;
+  margin: 2% 0 1% 0;
+  justify-content: space-between;
+}
+
+.reviews-navbar {
+  margin-left: 1.5%;
+  position: fixed;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-navbar {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-navbar {
+    width: 90px;
+  }
+}
+
+.reviews-filter {
+  height: 60px;
+  width: 140px;
+  margin: 30px 10px 30px 10px;
+  position: relative;
+  background-color: #fefefe;
+  border-radius: 10px;
+  transition: 0.1s;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-filter {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-filter {
+    width: 60px;
+  }
+}
+
+.reviews-filter button {
+  background-color: #fefefe;
+  border-radius: 10px;
+  list-style-type: none;
+  text-decoration-style: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  transition: 0.1s;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-filter button {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-filter button {
+    font-size: 0.7em;
+  }
+}
+
+.reviews-filter button:active {
+  font-size: 0.75em;
+}
+
+.reviews-navbar ul {
+  list-style-type: none;
+  text-decoration-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews-navbar ul li {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 4px rgb(121, 121, 121); */
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.reviews-logo li button {
+  position: relative;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.1s;
+}
+
+.reviews-logo li button:active {
+  background-size: 45px;
+}
+
+.reviews-separator {
+  width: 1px;
+  background-color: var(--footer-color);
+  box-shadow: 0 0 2px var(--footer-color);
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-separator {
+    margin-left: calc(2% + 170px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-separator {
+    margin-left: calc(2% + 90px);
+  }
+}
+
+.reviews-card {
+  margin: 0 2%;
+}
+
+@media screen and (min-width: 801px) {
+  .reviews-card {
+    width: calc(100% - 170px - 2%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-card {
+    width: calc(100% - 90px - 2%);
+  }
+}
+
+#card {
+  padding: 2% 3%;
+  margin: 5% 0;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+    0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  background-color: black;
+}
+
+.iconeReview
+{
+  background-size: 200px 300px;
+  height : 300px;
+  width : 200px;
+  border-radius : 20px;
+  display: flex;
+}
+
+.iconeReviewAlbum
+{
+  background-size: 300px 300px;
+  height : 300px;
+  width : 300px;
+  border-radius : 20px;
+  display: flex;
+}
+
+/*----------------------- Fin Reviews --------------*/
+/* --------------------  Debut aboutme -------------------- */
+
+#aboutMeBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#aboutMeText::first-letter {
+  font-size: 54px;
+  font-weight: bold;
+  font-family: "UnifrakturMaguntia", cursive;
+  color: var(--title-color);
+}
+
+#aboutMeText {
+  display: block;
+  line-height: 1.5em;
+  text-align: justify;
+  width: 80%;
+  font-family: var(--text-font);
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  font-size: 18px;
+}
+
+#pictureOfMe {
+  width: 240px;
+  border-radius: 50%;
+  margin-top: 4%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+
+/* -------------------- Fin aboutme -------------------- */
+/*----------------------- Début Formulaire --------------*/
+
+#contactForm {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+fieldset {
+  text-align: center;
+  color: var(--text-form);
+  margin-top: 15px;
+  background-color: var(--fieldset-color);
+  max-width: 500px;
+  padding: 16px;
+  margin: auto;
+  /* margin-bottom: 0px;
+  margin-left: 16px; */
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px #ccc;
+}
+
+fieldset,
+fieldset img {
+  border-radius: 10px;
+}
+
+.champ {
+  border: 2px #0f1b07;
+  padding: 2%;
+  margin: auto;
+}
+
+label {
+  margin: 0 15px 0 0px;
+  display: block;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+}
+
+input {
+  text-align: center;
+  justify-items: center;
+}
+#prenom,
+#motif,
+#nom,
+#mail {
+  margin-bottom: 4px;
+  margin-right: 5px;
+  padding: 1px;
+}
+
+textarea {
+  width: 80%;
+  height: 100%;
+}
+
+/*----------------------- Fin Formulaire ----------------*/
+/*----------------------- Debut Scroll Top --------------*/
+
+#scroll-to-top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 115px;
+  right: 30px;
+}
+
+#scroll-to-top a img {
+  transition: 1s;
+  width: 40px;
+}
+
+/*------------------- Fin Scroll Top -------------------*/
+/*------------------- Début Footer ---------------------*/
+
+footer {
+  background: var(--footer-color);
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  min-height: 80px;
+  flex-shrink: 0;
+}
+.logo {
+  margin: 10px;
+}
+
+.socialNetworkLogo {
+  width: 50px;
+  height: 50px;
+  float: right;
+  cursor: crosshair;
+}
+
+footer div a{
+  margin: 30px;
+  color: var(--body-font);
+}
+
+/*------------------- Fin Footer -----------------------*/ ;
