@@ -1,5 +1,6 @@
 <?php
 include 'header.php' ?>
+<main id="swup" class="transition-fade">
 <content>
 <div id= 'aboutMeBody'>
     <img src="source/mypicture.jpg" alt="Picture of me" id="pictureOfMe">
@@ -32,6 +33,5 @@ include 'header.php' ?>
     </div>
 </div>
     </content>
-    <?php
-include 'footer.php';
-?>
+</main>
+<?php include 'footer.php'?>
