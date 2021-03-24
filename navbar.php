@@ -4,7 +4,7 @@
         <div class="burger">
             <div id="burger-icon">
                 <button class="button-burger">
-                    <img id='burger-menu' src="source/burger-menu-icon.jpg" alt="burger-menu">
+                    <img id='burger-menu' src="source/burger-menu-icon2.png" alt="burger-menu">
                 </button>
             </div>
         </div>
