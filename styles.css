@@ -1,17 +1,19 @@
 /* ------------------ Root ------------------------ */
 
 :root {
-  --navbar-color: /*#f5fef5*/ #44566C;
-  --footer-color: #2F435E;
-  --separator-color: #ECECEC;
-  --title-font:  'Italiana', serif;
-  --title-color: #2F435E;
-  --text-form: #ECECEC;
-  --text-color: #2F435E;
-  --text-font: 'Roboto', sans-serif;    
-  --body-font: #ECECEC /*#fefee2*/;
+  --navbar-color: /*#f5fef5*/ #44566c;
+  --footer-color: #2f435e;
+  --separator-color: #ececec;
+  --title-font: "Italiana", serif;
+  --title-color: #2f435e;
+  --text-form: #ececec;
+  --text-color: #2f435e;
+  --text-font: "Roboto", sans-serif;
+  --body-font: #ececec /*#fefee2*/;
   --buttons-reviews: #516f94;
-  --fieldset-color: #44566C;
+  --fieldset-color: #44566c;
+  --width-revmob: 80px;
+  --height-revmob: calc(var(--width-revmob) * 1.5);
 }
 
 [data-theme="disco"] {
@@ -56,7 +58,6 @@ content {
     padding-top: 90px;
   }
 }
-
 
 /* -------------------- Fin content ------------------- */
 /* ------------------ Debut Navbar -------------------- */
@@ -177,7 +178,7 @@ a {
   .logo-mobile {
     transition: 0.5s;
   }
-  
+
   .logo-mobile:hover {
     transform: rotateY(180deg);
     transition: 1s;
@@ -220,7 +221,7 @@ a {
 }
 
 .colormode div {
-  align-self: center;  
+  align-self: center;
 }
 
 .colormode div p {
@@ -260,7 +261,7 @@ a {
   left: 10%; /*2px*/
   position: absolute;
   transition: 0.4s;
-  width:43%; /*13px*/
+  width: 43%; /*13px*/
 }
 
 input:checked + .slider {
@@ -286,13 +287,13 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.logo-titre{
+.logo-titre {
   display: flex;
   height: 100%;
 }
 
 .titre-site {
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
   margin-right: 10%;
   width: 100px;
   display: none;
@@ -303,8 +304,8 @@ input:checked + .slider:before {
 }
 
 @media screen and (min-width: 801px) {
-  .titre-site{
-    display:flex;
+  .titre-site {
+    display: flex;
   }
 }
 
@@ -391,7 +392,6 @@ input:checked + .slider:before {
   text-align: center;
   color: var(--title-color);
   text-shadow: 0.4em 0.4em 0.6em;
-
 }
 
 /*----------------------- Fin Index --------------*/
@@ -551,18 +551,33 @@ input:checked + .slider:before {
 @media screen and (max-width: 800px) {
   .reviews-card {
     width: calc(100% - 90px - 2%);
+    font-size: 0.5em;
   }
 }
 
 #card {
-  padding: 2% 3%;
-  margin: 5% 0;
+  padding: 2%;
   -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
     0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
     0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
+  top: 20vh;
+  left: 10vw;
+  position: fixed;
+  background: var(--body-font);
+  animation: appear 0.2s linear;
+  width: 50vh;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
 }
 
 .hidden {
@@ -573,22 +588,47 @@ input:checked + .slider:before {
   background-color: black;
 }
 
-.iconeReview
-{
-  background-size: 200px 300px;
-  height : 300px;
-  width : 200px;
-  border-radius : 20px;
+.reviews-category {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.iconeReviewAlbum
-{
-  background-size: 300px 300px;
-  height : 300px;
-  width : 300px;
-  border-radius : 20px;
+.iconeReview {
+  background-size: 200px 300px;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 200px;
+  border-radius: 5%;
   display: flex;
+  margin: 1%;
+  outline: none;
+}
+
+@media screen and (max-width: 800px) {
+  .iconeReview {
+    width: var(--width-revmob);
+    height: var(--height-revmob);
+    border-radius: 5px;
+    background-size: var(--width-revmob) var(--height-revmob);
+  }
+}
+
+.iconeReviewAlbum {
+  background-size: 300px 300px;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  margin: 1%;
+}
+
+@media screen and (max-width: 800px) {
+  .iconeReviewAlbum {
+    width: var(--height-revmob);
+    height: var(--height-revmob);
+    border-radius: 5px;
+    background-size: var(--height-revmob) var(--height-revmob);
+  }
 }
 
 /*----------------------- Fin Reviews --------------*/
@@ -748,7 +788,7 @@ footer {
   padding-left: 8px;
 }
 
-footer div a{
+footer div a {
   margin-left: 30px;
   padding-bottom: 10px;
   color: var(--text-form);
@@ -768,4 +808,3 @@ html.is-animating .transition-fade {
   opacity: 0;
 }
 /*------------------- Fin transitions -----------------------*/
-
