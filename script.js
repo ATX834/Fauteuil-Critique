@@ -82,6 +82,7 @@ const cat4 = document.querySelector(".cat-4");
     cat1.classList.add("hidden");
     cat2.classList.add("hidden");
     cat3.classList.add("hidden");
+    cat4.classList.add("hidden");
   }
 }
 
@@ -105,34 +106,31 @@ function getOnlyOneReview(x)
 
 /* ---------------- Apparition review ---------------------- */
   
+
 /* ---------------------- Burger menu ------------------------*/
 
-const menuActivate = document.querySelector(".navbar-list");
-let isMenuActivated = false;
 
-function openMenu() {
-  if (isMenuActivated === false) {
-    isMenuActivated = true;
-    menuActivate.classList.add('navbar-open');
-  } else {
-    isMenuActivated = false;
-    menuActivate.classList.remove('navbar-open');
-  }
+function toggleMenu() {
+  document.querySelector(".navbar-list").classList.toggle('navbar-open');
 }
+document.querySelector('.burger').addEventListener('click', toggleMenu);
 
 /* ---------------------- Burger menu ------------------------*/
-  
 /* ---------------------- Transitions ------------------------*/
-  
 function init() {
   document.querySelectorAll('.select-review').forEach(element => {
-    element.addEventListener('click', e => {
-      reviewclick(e.target.dataset.category);
-})
-  });
+    element.addEventListener('click', function (event) {
+      reviewclick(event.target.dataset.category);
+    })
+  })
 }
+
 init();
+
 const swup = new Swup();
 swup.on('contentReplaced', init);
+swup.on('transitionStart', function() {
+  document.querySelector(".navbar-list").classList.remove('navbar-open');
+})
 
 /* ---------------------- Transitions ------------------------*/

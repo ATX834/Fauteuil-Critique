@@ -3,7 +3,7 @@
 <content id='contactFormContent'>
     <form id='contactForm' form action="mailto:pecapel.dev@gmail.com" method="post" enctype="text/plain">
         <fieldset>
-            <img src="source/img_form.jpg">
+            <img src="source/img_form.jpg" id="formpicture">
             <div class='champ'>
                 <label for='nom'>Nom: </label>
                 <input type='text' id='nom' name='Nom' minlenght='2' maxlength='25' required>
