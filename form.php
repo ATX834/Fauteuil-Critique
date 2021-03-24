@@ -21,8 +21,8 @@
                 <select id='motif' name='motif'>
                     <option value='don'>Compliments/Dons</option>
                     <option value='menace'>Insultes/Menaces</option>
-                    <option value='error'>Vous souhaitez nous signaler une erreur ou un problème sur le site.</option>
-                    <option value='autres'>Vous souhaitez avoir d'autres informations.</option>
+                    <option value='error'>Signaler un problème technique</option>
+                    <option value='autres'>Autres informations</option>
                 </select>
                 <div class='champ'>
                     <label for='text'>Ecrivez votre message:</label><br>

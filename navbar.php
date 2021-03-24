@@ -33,7 +33,7 @@
             </div>
             <div class="about">
                 <a href="/aboutme.php">
-                    <h1>A propos</h1>
+                    <h1>About</h1>
                 </a>
             </div>
             <div class="form">
