@@ -8,18 +8,18 @@
                 </button>
             </div>
         </div>
-
-        <div class="logo-mobile">
-            <a href="index.php">
-                <img src="source/logo1.png" alt="logo">
-            </a>
-        <!-- </div>
-        <div class="titre-site">
-            <a href="index.php">
-                <h1>Fauteuil-Critiques.com</h1>
-            </a>
-        </div> -->
-
+        <div class="logo-titre">
+            <div class="logo-mobile">
+                <a href="index.php">
+                    <img src="source/logo1.png" alt="logo">
+                </a>
+            </div>
+            <div class="titre-site">
+                <a href="index.php">
+                    <h1>Fauteuil-Critiques.com</h1>
+                </a>
+            </div>
+        </div>
         <div class="menu">
             <div class="home">
                 <a href="/index.php">
