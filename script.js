@@ -4,6 +4,7 @@ const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
 );
 const currentTheme = localStorage.getItem("theme");
+const nMode = document.getElementById('N-mode');
 
 if (currentTheme) {
   document.documentElement.setAttribute("data-theme", currentTheme);
@@ -17,9 +18,12 @@ function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute("data-theme", "disco");
     localStorage.setItem("theme", "disco");
+    nMode.innerHTML = 'Basic';
+
   } else {
     document.documentElement.setAttribute("data-theme", "light");
     localStorage.setItem("theme", "light");
+    nMode.innerHTML = 'Night';
   }
 }
 
