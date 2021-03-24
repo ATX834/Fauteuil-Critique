@@ -49,7 +49,7 @@
 
           <button onclick="toggleOneReview('.review1')" class="iconeReview" style="background-image: url(source/Assassins-Creed-Black-Flag.jpg)"></button><br />
           <div id="card" class="review1 hidden">
-            <button onclick="toggleOneReview('.review1')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review1')" class="close-icon"></button>
             <h3>Assassin’s Creed: Black Flag</h3><br />
             Editeur: Ubisoft<br />
             Date de sortie: 2013<br />
@@ -67,7 +67,7 @@
 
           <button onclick="toggleOneReview('.review2')" class="iconeReview" style="background-image: url(source/Final-Fantasy-VII-remake.png)"></button>
           <div id="card" class="review2 hidden">
-            <button onclick="toggleOneReview('.review2')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review2')" class="close-icon"></button>
             <br />
             <h3>Final Fantasy VII: Remake</h3><br />
             Editeur: Square Enix<br />
@@ -102,7 +102,7 @@
 
           <button onclick="toggleOneReview('.review3')" class="iconeReview" style="background-image: url(source/choc_titans.jpg)"></button>
           <div id="card" class="review3 hidden">
-            <button onclick="toggleOneReview('.review3')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review3')" class="close-icon"></button>
             <br />
             <h3>Le Choc des Titans</h3><br />
             Réalisateur: Louis Leterrier<br />
@@ -119,7 +119,7 @@
 
           <button onclick="toggleOneReview('.review4')" class="iconeReview" style="background-image: url(source/la_mome.jpeg)"></button>
           <div id="card" class="review4 hidden">
-            <button onclick="toggleOneReview('.review4')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review4')" class="close-icon"></button>
             <h3>La Môme</h3><br />
             Réalisateur: Olivier Dahan<br />
             Date de sortie : 2007<br />
@@ -134,7 +134,7 @@
 
           <button onclick="toggleOneReview('.review5')" class="iconeReview" style="background-image: url(source/lucy.jpg)"></button>
           <div id="card" class="review5 hidden">
-            <button onclick="toggleOneReview('.review5')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review5')" class="close-icon"></button>
             <h3>Lucy</h3><br />
             Réalisateur: Luc Besson<br />
             Date de sortie : 2014<br />
@@ -150,7 +150,7 @@
 
           <button onclick="toggleOneReview('.review6')" class="iconeReview" style="background-image: url(source/de-l-autre-cote-du-periph.jpeg)"></button>
           <div id="card" class="review6 hidden">
-            <button onclick="toggleOneReview('.review6')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review6')" class="close-icon"></button>
             <h3>De l’Autre Coté du Périph</h3><br />
             Réalisateur: David Charhon<br />
             Date de sortie : 2012<br />
@@ -179,7 +179,7 @@
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
           <button onclick="toggleOneReview('.review7')" class="iconeReview" style="background-image: url(source/obelix_compagnie.jpg)"></button>
           <div id="card" class="review7 hidden">
-            <button onclick="toggleOneReview('.review7')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review7')" class="close-icon"></button>
             <h3>Obélix et Compagnie</h3><br />
             Auteur: René Goscinny et Albert Uderzo<br />
             Date de sortie: 1976<br />
@@ -195,7 +195,7 @@
 
           <button onclick="toggleOneReview('.review8')" class="iconeReview" style="background-image: url(source/Décadence.jpg)"></button>
           <div id="card" class="review8 hidden">
-            <button onclick="toggleOneReview('.review8')" class=" close-icon">close</button>
+            <button onclick="toggleOneReview('.review8')" class=" close-icon"></button>
             <h3>Décadence</h3><br />
             Auteur: Michel Onfray<br />
             Date de sortie: 2017<br />
@@ -214,7 +214,7 @@
 
           <button onclick="toggleOneReview('.review9')" class="iconeReview" style="background-image: url(source/Samarcande.jpg)"></button>
           <div id="card" class="review9 hidden">
-            <button onclick="toggleOneReview('.review9')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review9')" class="close-icon"></button>
             <h3>Samarcande</h3><br />
             Auteur: Amin Maalouf<br />
             Date de sortie: 2017<br />
@@ -245,7 +245,7 @@
 
           <button onclick="toggleOneReview('.review10')" class="iconeReviewAlbum" style="background-image: url(source/white-fence.jpg)"></button>
           <div id="card" class="review10 hidden">
-            <button onclick="toggleOneReview('.review10')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review10')" class="close-icon"></button>
             <h3>For The Recently Found Innocent</h3><br />
             Auteur: White Fence<br />
             Date de sortie: 2014<br />
@@ -263,7 +263,7 @@
 
           <button onclick="toggleOneReview('.review11')" class="iconeReviewAlbum" style="background-image: url(source/the-harder-they-come.jpg)"></button>
           <div id="card" class="review11 hidden">
-            <button onclick="toggleOneReview('.review11')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review11')" class="close-icon"></button>
             <h3>The Harder They Come</h3><br />
             Auteur: Jimmy Cliff, The Maytals, Desmond Dekker, The Melodians<br />
             Date de sortie: 1972<br />
@@ -280,7 +280,7 @@
 
           <button onclick="toggleOneReview('.review12')" class="iconeReviewAlbum" style="background-image: url(source/thdafreak.jpeg)"></button>
           <div id="card" class="review12 hidden">
-            <button onclick="toggleOneReview('.review12')" class="close-icon">close</button>
+            <button onclick="toggleOneReview('.review12')" class="close-icon"></button>
             <h3>Party Flub</h3><br />
             Auteur: TH da Freak & Friends<br />
             Date de sortie: 2021<br />
