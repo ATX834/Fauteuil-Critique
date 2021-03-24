@@ -4,11 +4,11 @@
   --navbar-color: /*#f5fef5*/ #44566C;
   --footer-color: #2F435E;
   --separator-color: #ECECEC;
-  --title-font: "Jacques Francois", serif;
+  --title-font:  'Italiana', serif;
   --title-color: #2F435E;
   --text-form: #ECECEC;
   --text-color: #2F435E;
-  --text-font: "Ibarra Real Nova", serif;
+  --text-font: 'Roboto', sans-serif;    
   --body-font: #ECECEC /*#fefee2*/;
   --fieldset-color: #44566C;
 }
@@ -75,6 +75,7 @@ nav {
   width: 100%;
   background-color: var(--navbar-color);
   font-family: var(--title-font);
+  font-size: 18px;
   box-shadow: 0 5px 5px rgb(172, 172, 172);
   z-index: 10;
 }
@@ -280,7 +281,7 @@ input:checked + .slider:before {
 
 .menu h1:hover {
   color: var(--body-font);
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   transition: 0.3s;
 }
 
@@ -570,7 +571,7 @@ input:checked + .slider:before {
 #pictureOfMe {
   width: 240px;
   border-radius: 50%;
-  margin-top: 200px;
+  margin-top: 180px;
   border-style: solid;
   border-color: grey;
   border-width: 1px;
@@ -615,7 +616,7 @@ label {
   margin: 0 15px 0 0px;
   display: block;
   text-align: center;
-  font-family: 'Rokkitt', serif;
+  font-family: var(--text-font);
 }
 
 input {
@@ -626,9 +627,13 @@ input {
 #motif,
 #nom,
 #mail {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   margin-right: 5px;
+  margin-top: 2px;
   padding: 1px;
+}
+#motif {
+  margin-top: 10px;
 }
 
 textarea {
