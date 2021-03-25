@@ -9,7 +9,7 @@
 
         <button id="filter-off" type="text" onclick="reviewclick('all')">
 
-          <h3>Remove filter</h3>
+          <h3>Afficher tout</h3>
         </button>
       </div>
 
