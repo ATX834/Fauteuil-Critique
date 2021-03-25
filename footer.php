@@ -14,8 +14,8 @@
 
   </footer>
   </body>
+
   <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
   <script src="script.js"></script>
-
 
   </html>
