@@ -375,7 +375,16 @@ input:checked + .slider:before {
 /*----------------------- Début Index --------------*/
 
 .contenuIndex {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+#img-index {
+  height: 50%;
+  width: 100vw;
+  max-height: 501px;
+  max-width: 969px;
+  align-self: center;
 }
 
 .paragrapheIndex {
@@ -392,6 +401,12 @@ input:checked + .slider:before {
   text-align: center;
   color: var(--title-color);
   text-shadow: 0.4em 0.4em 0.6em;
+}
+
+@media screen and (max-width: 800px) {
+  .titreIndex {
+    font-size: 0.5em;
+  }
 }
 
 /*----------------------- Fin Index --------------*/
@@ -800,19 +815,28 @@ textarea {
 
 /*----------------------- Fin Formulaire ----------------*/
 /*----------------------- Debut Scroll Top --------------*/
-
+#scroll-to-top-block {
+  width: 20px;
+  align-items: right;
+  margin-left: 82%;
+}
 #scroll-to-top {
-  position: fixed;
-  width: 25px;
   height: 25px;
-  bottom: 80px;
+  bottom: 30px;
   right: 30px;
+  cursor: pointer;
+  z-index: 100;
+  transform: translateY(100px);
+  transition: all .5s ease;
+  width: 40px;
+  opacity: 0;
 }
 
-#scroll-to-top a img {
-  transition: 1s;
-  width: 40px;
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
 }
+
 
 /*------------------- Fin Scroll Top -------------------*/
 /*------------------- Début Footer ---------------------*/

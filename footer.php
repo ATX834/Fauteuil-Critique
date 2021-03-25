@@ -1,8 +1,8 @@
-  <div id="scroll-to-top">
-    <a href="#top">
-      <img src="source/scroll_to_top.png" alt="Scroll">
-    </a>
-  </div>
+  <div id = scroll-to-top-block>
+  <a id="scroll-to-top">
+      <img src="source/scroll_to_top.resized.png" alt="Scroll">
+  </a>
+</div>
 
   <footer>
     <div class="logo">
