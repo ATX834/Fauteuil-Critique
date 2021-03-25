@@ -24,7 +24,7 @@
   --text-color: rgb(255, 255, 255);
   --text-font: "Ibarra Real Nova", serif;
   --body-image: url(source/barre_disco.jpg);
-  --fieldset-color: #000000;
+  --fieldset-color: transparent;
   --buttons-reviews: #fe277e;
 }
 
@@ -474,7 +474,6 @@ input:checked + .slider:before {
 .reviews-filter button {
   background-color: var(--buttons-reviews);
   color: var(--text-form);
-  /* font-family:  var(--title-font); */
   border-radius: 10px;
   list-style-type: none;
   text-decoration-style: none;
@@ -493,7 +492,7 @@ input:checked + .slider:before {
 
 @media screen and (max-width: 800px) {
   .reviews-filter button {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 }
 
@@ -577,7 +576,18 @@ input:checked + .slider:before {
   }
 }
 
+.reviews-card h1
+{
+  font-family: var(--title-font);
+  color: var(--title-color);
+}
+
 #card {
+  /* display:flex;
+  flex-direction: column; */
+  text-align: center;
+  font-family: var(--text-font);
+  font-weight: 600;
   padding: 2%;
   -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
     0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -591,6 +601,8 @@ input:checked + .slider:before {
   background: var(--body-font);
   animation: appear 0.2s linear;
   width: 80vw;
+  border-radius : 5px;
+  z-index: 11;
 }
 
 @keyframes appear {
@@ -602,9 +614,31 @@ input:checked + .slider:before {
   }
 }
 
-.hidden {
+@media screen and (max-width: 800px)
+{
+  #card {
+  top: 35vh;
+  left: 10vw;
+  width: 80vw;
+  font-size: 1.5em;
+  }
+}
+/* 
+.underlay {
   display: none;
 }
+
+.underlay-visible{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+} */
+
 
 .selected {
   background-color: black;
@@ -624,6 +658,26 @@ input:checked + .slider:before {
   display: flex;
   margin: 1%;
   outline: none;
+}
+
+.close-icon
+{
+  background-color: var(--buttons-reviews);
+  color: var(--text-form);
+  font-weight: bold;
+  height: 30px;
+  width: 80px;
+  border-radius: 13px;
+  border: none;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 800px) {
+  .close-icon button {
+    font-size: 0.9em;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -691,6 +745,10 @@ input:checked + .slider:before {
   border-width: 1px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* -------------------- Fin aboutme -------------------- */
 /*----------------------- Début Formulaire --------------*/
 
@@ -719,7 +777,7 @@ fieldset {
 
 @media screen and (max-width: 800px) {
   fieldset {
-    background-color: var(--body-font);
+    background-color: transparent;
     color: var(--fieldset-color);
     padding: 0;
   }
