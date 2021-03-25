@@ -90,9 +90,9 @@ function reviewclick(e) {
 
 /* ---------------- Apparition review ---------------------- */
 
-function toggleUnderlay() {
-  document.querySelector(".underlay").classList.toggle('underlay-visible');
-}
+// function toggleUnderlay() {
+//   document.querySelector(".underlay").classList.toggle('underlay-visible');
+// }
 
 function toggleOneReview(selector) {
 
@@ -100,11 +100,11 @@ function toggleOneReview(selector) {
 
   if (chosenReview.classList[1] === "hidden") {
     chosenReview.classList.remove("hidden");
-    toggleUnderlay()
+    // toggleUnderlay()
   }
   else {
     chosenReview.classList.add("hidden");
-    toggleUnderlay()
+    // toggleUnderlay()
   }
 }
 

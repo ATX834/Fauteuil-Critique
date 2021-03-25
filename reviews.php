@@ -49,7 +49,6 @@
 
           <button onclick="toggleOneReview('.review1')" class="iconeReview" style="background-image: url(source/Assassins-Creed-Black-Flag.jpg)"></button><br />
           <div id="card" class="review1 hidden">
-            <button onclick="toggleOneReview('.review1')" class="close-icon"></button>
             <h3>Assassin’s Creed: Black Flag</h3><br />
             Editeur: Ubisoft<br />
             Date de sortie: 2013<br />
@@ -61,13 +60,13 @@
               Edward Kennway est extrèmement balourd et moins charismatique qu’Eric Zemmour. J’y ai quand même passé un très bon moment
               et vous le recommande chaudement.
             </p>
+            <button onclick="toggleOneReview('.review1')" class="close-icon">Close</button>
           </div>
-
+          
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
+          
           <button onclick="toggleOneReview('.review2')" class="iconeReview" style="background-image: url(source/Final-Fantasy-VII-remake.png)"></button>
           <div id="card" class="review2 hidden">
-            <button onclick="toggleOneReview('.review2')" class="close-icon"></button>
             <br />
             <h3>Final Fantasy VII: Remake</h3><br />
             Editeur: Square Enix<br />
@@ -82,6 +81,7 @@
               assez peu d’interraction. Bon jeu quand même pour les nostalgiques qui se termine assez rapidement et nous donne envie de
               voir la suite.
             </p>
+            <button onclick="toggleOneReview('.review2')" class="close-icon">Close</button>
           </div>
 
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -102,7 +102,6 @@
 
           <button onclick="toggleOneReview('.review3')" class="iconeReview" style="background-image: url(source/choc_titans.jpg)"></button>
           <div id="card" class="review3 hidden">
-            <button onclick="toggleOneReview('.review3')" class="close-icon"></button>
             <br />
             <h3>Le Choc des Titans</h3><br />
             Réalisateur: Louis Leterrier<br />
@@ -112,14 +111,14 @@
               avec un casting XXL (Liam Neeson aka Qui-gon Jinn, Ralph Fiennes aka Voldemort, Madds Mikkelsen aka le mec qui cherche
               votre bébé dans Death Stranding et qui pleure du pétrole avec ses yeux..). Scénario assez classique et personnages un peu
               caricaturaux mais dans l’ensemble un bon diversement pour en prendre plein les yeux sans trop se prendre la tête, j’ai bien aimé.
-            <p>
-          </div>
-
+              <p>
+                <button onclick="toggleOneReview('.review3')" class="close-icon">Close</button>
+                </div>
+                
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
           <button onclick="toggleOneReview('.review4')" class="iconeReview" style="background-image: url(source/la_mome.jpeg)"></button>
           <div id="card" class="review4 hidden">
-            <button onclick="toggleOneReview('.review4')" class="close-icon"></button>
             <h3>La Môme</h3><br />
             Réalisateur: Olivier Dahan<br />
             Date de sortie : 2007<br />
@@ -127,14 +126,14 @@
               J’ai beaucoup aimé l’ambiance et les décors et Marion Cotillard joue très bien, même si elle est particulièrement
               énervante lors de la scène où elle apprend la mort de Marcel Cerdan et hurle “MARCEEEEEEEEL” dans le hall de chez elle.
               Bon film un peu déprimant.
-            <p>
-          </div>
-
-          <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
+              <p>
+                <button onclick="toggleOneReview('.review4')" class="close-icon">Close</button>
+                </div>
+                
+                <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                
           <button onclick="toggleOneReview('.review5')" class="iconeReview" style="background-image: url(source/lucy.jpg)"></button>
           <div id="card" class="review5 hidden">
-            <button onclick="toggleOneReview('.review5')" class="close-icon"></button>
             <h3>Lucy</h3><br />
             Réalisateur: Luc Besson<br />
             Date de sortie : 2014<br />
@@ -143,14 +142,14 @@
               commence à découvrir ses pouvoirs tout part en sucette avec des rebondissements toujours plus imporbables et mal amenés.
               Et puis ce final en apothéose (spoiler : à la fin Scarlett devient tellement intelligente qu’elle se transforme en clef USB ).
               Nul de chez nul, à éviter à tout prix.
-            <p>
-          </div>
-
-          <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+              <p>
+                <button onclick="toggleOneReview('.review5')" class="close-icon">Close</button>
+                </div>
+                
+                <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
           <button onclick="toggleOneReview('.review6')" class="iconeReview" style="background-image: url(source/de-l-autre-cote-du-periph.jpeg)"></button>
           <div id="card" class="review6 hidden">
-            <button onclick="toggleOneReview('.review6')" class="close-icon"></button>
             <h3>De l’Autre Coté du Périph</h3><br />
             Réalisateur: David Charhon<br />
             Date de sortie : 2012<br />
@@ -159,10 +158,11 @@
               role du commissaire de la PJ en mode gros con raciste et obsédé qui forcément se fait victimiser quand il débarque… de l’autre coté du périph.
               En résulte une comédie très légère, les vannes sont assez attendues et la dynamique entre les deux héros pas forcément orignale
               (quoi qu’au moins on échape à la très galvaudée dynamique du jeune flic/vieux flic) mais assez sympathique et divertissante.
-            <p>
-          </div>
-
-          <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+              <p>
+                <button onclick="toggleOneReview('.review6')" class="close-icon">Close</button>
+                </div>
+                
+                <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
         </div>
 
@@ -179,7 +179,6 @@
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
           <button onclick="toggleOneReview('.review7')" class="iconeReview" style="background-image: url(source/obelix_compagnie.jpg)"></button>
           <div id="card" class="review7 hidden">
-            <button onclick="toggleOneReview('.review7')" class="close-icon"></button>
             <h3>Obélix et Compagnie</h3><br />
             Auteur: René Goscinny et Albert Uderzo<br />
             Date de sortie: 1976<br />
@@ -189,13 +188,13 @@
               par travailler pour un Obelix perverti par l’argent et isolé de ses amis Asterix et Idefix et des plaisir simples de la chasse et la rigolade
               entre copains. Une belle histoire et une jolie morale anti-capitaliste qui en font pour moi undes meilleurs albums de la collection Asterix.
             </p>
+            <button onclick="toggleOneReview('.review7')" class="close-icon">Close</button>
           </div>
-
+          
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
           <button onclick="toggleOneReview('.review8')" class="iconeReview" style="background-image: url(source/Décadence.jpg)"></button>
           <div id="card" class="review8 hidden">
-            <button onclick="toggleOneReview('.review8')" class=" close-icon"></button>
             <h3>Décadence</h3><br />
             Auteur: Michel Onfray<br />
             Date de sortie: 2017<br />
@@ -208,13 +207,13 @@
               (où il n’est pourtant « jamais invité »..), préférez-y la Contre-histoire de la philosophie qui reste son seul vrai
               travail de fond sur un sujet passionant.
             </p>
+            <button onclick="toggleOneReview('.review8')" class="close-icon">Close</button>
           </div>
 
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
           <button onclick="toggleOneReview('.review9')" class="iconeReview" style="background-image: url(source/Samarcande.jpg)"></button>
           <div id="card" class="review9 hidden">
-            <button onclick="toggleOneReview('.review9')" class="close-icon"></button>
             <h3>Samarcande</h3><br />
             Auteur: Amin Maalouf<br />
             Date de sortie: 2017<br />
@@ -227,6 +226,7 @@
               les jeux de la franchise) et les autres se régaleront de ce récit de la vieille Perse et de la révolution iranienne, immersion
               garantie.
             </p>
+            <button onclick="toggleOneReview('.review9')" class="close-icon">Close</button>
           </div>
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -245,7 +245,6 @@
 
           <button onclick="toggleOneReview('.review10')" class="iconeReviewAlbum" style="background-image: url(source/white-fence.jpg)"></button>
           <div id="card" class="review10 hidden">
-            <button onclick="toggleOneReview('.review10')" class="close-icon"></button>
             <h3>For The Recently Found Innocent</h3><br />
             Auteur: White Fence<br />
             Date de sortie: 2014<br />
@@ -257,13 +256,13 @@
               en matière accessible pour découvrir le personnage et si vous l’aimez je ne peux que vous recommander d’écouter ses autres albums,
               particulierement Is Growing Faith.
             </p>
+            <button onclick="toggleOneReview('.review10')" class="close-icon">Close</button>
           </div>
 
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
           <button onclick="toggleOneReview('.review11')" class="iconeReviewAlbum" style="background-image: url(source/the-harder-they-come.jpg)"></button>
           <div id="card" class="review11 hidden">
-            <button onclick="toggleOneReview('.review11')" class="close-icon"></button>
             <h3>The Harder They Come</h3><br />
             Auteur: Jimmy Cliff, The Maytals, Desmond Dekker, The Melodians<br />
             Date de sortie: 1972<br />
@@ -274,13 +273,13 @@
               mouche, on y retrouve aussi le tube Many Rivers To Cross de Jimmy Cliff enregistré deux ans plus tôt. Une belle introduction au
               Rocksteady et au early ska de cette grande époque du raggae.
             </p>
+            <button onclick="toggleOneReview('.review11')" class="close-icon">Close</button>
           </div>
-
+          
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
           <button onclick="toggleOneReview('.review12')" class="iconeReviewAlbum" style="background-image: url(source/thdafreak.jpeg)"></button>
           <div id="card" class="review12 hidden">
-            <button onclick="toggleOneReview('.review12')" class="close-icon"></button>
             <h3>Party Flub</h3><br />
             Auteur: TH da Freak & Friends<br />
             Date de sortie: 2021<br />
@@ -292,6 +291,7 @@
               largement à être connus (Twingo Reverse ou Pikto). Un de mes disques de rock garage français préférés dont
               le seul vrai défaut est de ne pas dépasser la demi heure de musique.
             </p>
+            <button onclick="toggleOneReview('.review12')" class="close-icon">Close</button>
           </div>
 
           <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
