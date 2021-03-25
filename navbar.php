@@ -23,17 +23,17 @@
         <div class="menu">
             <div class="home">
                 <a href="/index.php">
-                    <h1>Home</h1>
+                    <h1>Accueil</h1>
                 </a>
             </div>
             <div class="review">
                 <a href="/reviews.php">
-                    <h1>Reviews</h1>
+                    <h1>Critiques</h1>
                 </a>
             </div>
             <div class="about">
                 <a href="/aboutme.php">
-                    <h1>About</h1>
+                    <h1>A propos</h1>
                 </a>
             </div>
             <div class="form">
@@ -59,13 +59,13 @@
     <div class="navbar-list">
         <ul>
             <li>
-                <a href="/index.php">Home</a>
+                <a href="/index.php">Accueil</a>
             </li>
             <li>
-                <a href="/reviews.php">Reviews</a>
+                <a href="/reviews.php">Critiques</a>
             </li>
             <li>
-            <a href="/aboutme.php">About</a>
+            <a href="/aboutme.php">A propos</a>
             </li>
             <li>
             <a href="/form.php">Contact</a>
