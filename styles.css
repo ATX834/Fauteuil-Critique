@@ -44,11 +44,18 @@ body {
 }
 
 /*----------------------- Fin body --------------*/
+/*----------------------- Main --------------*/
+
+main {
+  min-height: calc(100vh - 60px - 59px);
+}
+
+/*----------------------- Fin body --------------*/
 /* -------------------- Content -----------------------*/
 
 content {
   height: auto;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   padding-top: 10vh;
   flex: 1 0 auto;
 }
@@ -380,7 +387,6 @@ input:checked + .slider:before {
 }
 
 #img-index {
-  height: 50%;
   width: 100vw;
   max-height: 501px;
   max-width: 969px;
@@ -401,6 +407,7 @@ input:checked + .slider:before {
   text-align: center;
   color: var(--title-color);
   text-shadow: 0.4em 0.4em 0.6em;
+  padding-top: 5%;
 }
 
 @media screen and (max-width: 800px) {
@@ -578,12 +585,12 @@ input:checked + .slider:before {
     0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
-  top: 20vh;
+  top: 35vh;
   left: 10vw;
   position: fixed;
   background: var(--body-font);
   animation: appear 0.2s linear;
-  width: 50vh;
+  width: 80vw;
 }
 
 @keyframes appear {
@@ -767,8 +774,10 @@ textarea {
 /*----------------------- Debut Scroll Top --------------*/
 #scroll-to-top-block {
   width: 20px;
-  align-items: right;
-  margin-left: 82%;
+  position: relative;
+  align-self: flex-end;
+  right: 50px;
+  bottom: 10px;
 }
 #scroll-to-top {
   height: 25px;
@@ -779,7 +788,7 @@ textarea {
   transform: translateY(100px);
   transition: all .5s ease;
   width: 40px;
-  opacity: 0;
+  opacity: 1;
 }
 
 .showBtn {
