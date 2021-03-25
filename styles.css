@@ -24,7 +24,7 @@
   --text-color: rgb(255, 255, 255);
   --text-font: "Ibarra Real Nova", serif;
   --body-image: url(source/barre_disco.jpg);
-  --fieldset-color: #000000;
+  --fieldset-color: transparent;
   --buttons-reviews: #fe277e;
 }
 
@@ -777,7 +777,7 @@ fieldset {
 
 @media screen and (max-width: 800px) {
   fieldset {
-    background-color: var(--body-font);
+    background-color: transparent;
     color: var(--fieldset-color);
     padding: 0;
   }
