@@ -1,4 +1,20 @@
-<h1> Fauteuil Critique </h1> 
+<p align='center'>
+    <img src='/source/logo1.png' height=80px width=80px/> <br>
+ </p>
+
+<h1 align='center'> Fauteuil Critique </h1> 
+<h3 align='center'> :robot: Langages utilisés<h2>
+   <p align='center'>
+       •
+    <img src='https://logos-download.com/wp-content/uploads/2016/09/PHP_logo.png' width=50px height=25px>
+       •
+     <img src='https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png' width=25px height=25px>
+       •
+    <img src='http://dmitri-komarovski.com/img/css3.png' width=25px height=27px>
+       •
+    <img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' width=25px height=25px>
+       •
+    </p>
 <h2> Introduction</h2>
 <p>
   L'objectif de ce projet est de réaliser un site statique sur un sujet libre. Nous avons choisi de créer un blog d'un journaliste fictif souhaitant partager son opinion sur     divers sujets tel que le cinéma, la littérature, la musique et les jeux vidéos.
