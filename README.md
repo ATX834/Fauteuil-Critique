@@ -1,7 +1,7 @@
 <h1> Fauteuil Critique </h1> 
 <h2> Introduction</h2>
 <p>
-  L'objectif de ce projet est de réaliser un site statique sur un sujet libre. Nous avons choisi de créer un blog d'un journaliste fictif souhaitant partager des critiques sur     divers sujets tel que le cinéma, la littérature, la musique et les jeux vidéos.
+  L'objectif de ce projet est de réaliser un site statique sur un sujet libre. Nous avons choisi de créer un blog d'un journaliste fictif souhaitant partager son opinion sur     divers sujets tel que le cinéma, la littérature, la musique et les jeux vidéos.
 </p>
 
 <p>
