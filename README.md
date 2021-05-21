@@ -44,6 +44,4 @@
 
 Le blog est déployé à ce [lien](https://fauteuil-critiques.herokuapp.com)
 
-✤ <i>Ceci est un projet de hackathon interne au sein de la Wild Code School Toulouse (48h) - Développeur web (mai 2021)<i> <br>
-✤ <i>Prix de la meilleur fonctionnalité<i>
-
+✤ <i>Ceci est le premier projet au sein de la Wild Code School Toulouse - Développeur web (mars 2021)<i> <br>
