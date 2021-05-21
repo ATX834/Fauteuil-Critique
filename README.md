@@ -39,6 +39,10 @@
   :warning:<b>L'utilisation d'un framework CSS est interdite</b>:warning:
 </p>
 <h2> Explications des différentes fonctionnalités du site</h2>
+<h2> :computer: Déploiement </h2>
+    <p>
+        Le blog est déployé à ce <a href='https://fauteuil-critiques.herokuapp.com'>lien</a>
+    </p>
 <h2> :scroll: Collaborateurs</h2>
 
 <p>
@@ -55,9 +59,5 @@
   :man: <b>Clément Bacquet</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/ATX834">@ATX834</a> <br>
 </p>
-
-<h2> :computer: Déploiement </h2>
-
-Le blog est déployé à ce [lien](https://fauteuil-critiques.herokuapp.com)
 
 ✤ <i>Ceci est le premier projet au sein de la Wild Code School Toulouse - Développeur web (mars 2021)<i> <br>
