@@ -20,7 +20,7 @@
   être réalisé en 2 semaines
 </li> <br>
 <p>
-  <b>L'utilisation d'un framework CSS est interdite</b>
+  :warning:<b>L'utilisation d'un framework CSS est interdite</b>
 </p>
 <h2> Explications des différentes fonctionnalités du site</h2>
 <h2> :scroll: Collaborateurs</h2>
